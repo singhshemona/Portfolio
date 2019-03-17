@@ -4,6 +4,8 @@ $fontFamily: 'Slabo 27px', serif;
 $purple: #C06C85;
 $dark-purple: #a6536c;
 $grey: #8f8f8f;
+$light-grey: #d7d7d7;
+$grey-hover: #b6b4b4;
 
 // MIXINS
 
@@ -11,6 +13,8 @@ $grey: #8f8f8f;
 //   display: flex;
 //   justify-content: space-between
 // }
+
+// @include flex
 
 // STYLES
 
@@ -77,31 +81,44 @@ nav {
 .projects {
 
   a {
-    display: inline-grid;
+    display: block;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     color: $grey;
+    margin-bottom: 60px;
   }
 
   svg {
-    border: 1px solid #d7d7d7;
+    box-shadow: 0px 0px 30px 0px $light-grey;
     border-radius: 6px;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 }
 
 @media (min-width: 845px) {
   .projects {
+
+    a {
+      display: inline-grid;
+    }
+
     display: flex;
     justify-content: space-evenly;
 
     svg {
       height: 300px;
       width: 400px;
+
+      &:hover {
+        box-shadow: 0px 0px 30px 0px $grey-hover;
+        transition: .3s ease;
+      }
     }
   }
-
-
 }
+
+
+
+
 
