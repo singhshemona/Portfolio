@@ -30,7 +30,7 @@ nav {
 
   a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 28px;
   }
 
   .social-media {
@@ -49,11 +49,6 @@ nav {
     padding: 8px;
     border-radius: 6px;
     text-decoration: none;
-
-    &:hover {
-      background: $dark-purple;
-      transition: ease .3s;
-    }
   }
 }
 
@@ -62,7 +57,7 @@ nav {
   text-align: center;
 
   h1 {
-    font-size: 50px;
+    font-size: 120px;
   }
 
   h2 {
@@ -115,6 +110,21 @@ nav {
         transition: .3s ease;
       }
     }
+  }
+
+  .collab-button {
+    &:hover {
+      background: $dark-purple;
+      transition: ease .3s;
+    }
+  }
+
+  nav a {
+      font-size: 18px;
+  }
+
+  .opening-text h1 {
+      font-size: 50px;
   }
 }
 

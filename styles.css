@@ -9,7 +9,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 28px;
 }
 nav .social-media {
   margin-right: 26px;
@@ -26,16 +26,12 @@ nav .collab-button {
   border-radius: 6px;
   text-decoration: none;
 }
-nav .collab-button:hover {
-  background: #a6536c;
-  transition: ease 0.3s;
-}
 
 .opening-text {
   text-align: center;
 }
 .opening-text h1 {
-  font-size: 50px;
+  font-size: 120px;
 }
 .opening-text h2 {
   font-size: 28px;
@@ -76,6 +72,19 @@ nav .collab-button:hover {
   .projects svg:hover {
     box-shadow: 0px 0px 30px 0px #b6b4b4;
     transition: 0.3s ease;
+  }
+
+  .collab-button:hover {
+    background: #a6536c;
+    transition: ease 0.3s;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  .opening-text h1 {
+    font-size: 50px;
   }
 }
 
