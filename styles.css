@@ -13,18 +13,19 @@ nav a {
 }
 nav .social-media {
   margin-right: 26px;
-  padding-top: 8px;
 }
 nav .social-media img {
-  width: 25px;
-  height: 25px;
+  width: 60px;
+  height: 60px;
 }
 nav .collab-button {
   background: #C06C85;
   color: white;
-  padding: 8px;
   border-radius: 6px;
   text-decoration: none;
+  line-height: 60px;
+  padding: 0 20px;
+  height: 60px;
 }
 
 .opening-text {
@@ -34,13 +35,15 @@ nav .collab-button {
   font-size: 120px;
 }
 .opening-text h2 {
-  font-size: 28px;
   color: #8f8f8f;
-  margin-bottom: 80px;
+  font-size: 38px;
+  max-width: 730px;
+  margin: auto auto 80px auto;
 }
 .opening-text p {
-  font-size: 24px;
-  margin-bottom: 40px;
+  font-size: 14px;
+  margin-bottom: 14px;
+  font-weight: bold;
 }
 
 .projects a {
@@ -57,7 +60,7 @@ nav .collab-button {
   margin-top: 25px;
 }
 
-@media (min-width: 845px) {
+@media (min-device-width: 845px) {
   .projects {
     display: flex;
     justify-content: space-evenly;
@@ -85,6 +88,25 @@ nav .collab-button {
 
   .opening-text h1 {
     font-size: 50px;
+  }
+  .opening-text h2 {
+    font-size: 28px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .opening-text p {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+
+  nav .social-media img {
+    width: 40px;
+    height: 40px;
+  }
+  nav .collab-button {
+    line-height: 40px;
+    padding: 0 14px;
+    height: 40px;
   }
 }
 
