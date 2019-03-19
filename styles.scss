@@ -4,8 +4,8 @@ $fontFamily: 'Slabo 27px', serif;
 $purple: #C06C85;
 $dark-purple: #a6536c;
 $grey: #8f8f8f;
-$light-grey: #d7d7d7;
-$grey-hover: #b6b4b4;
+$light-grey: #e9e9e9;
+$grey-hover: #d7d7d7;
 
 // MIXINS
 
@@ -69,7 +69,7 @@ nav {
   }
 
   p {
-    font-size: 14px;
+    font-size: 40px;
     margin-bottom: 14px;
     font-weight: bold;
   }
@@ -85,6 +85,7 @@ nav {
     font-weight: bold;
     color: $grey;
     margin-bottom: 60px;
+    font-size: 30px;
   }
 
   svg {
@@ -99,6 +100,7 @@ nav {
 
     a {
       display: inline-grid;
+      font-size: 22px;
     }
 
     display: flex;
