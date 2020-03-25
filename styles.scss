@@ -16,7 +16,24 @@ $grey-hover: #d7d7d7;
 
 // @include flex
 
-// STYLES
+// GENERAL STYLES
+
+.button {
+  border-radius: 6px;
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 20px;
+  height: 60px;
+  color: white;
+}
+
+.primary-button {
+  background: $purple;
+}
+
+.secondary-button {
+  background: $light-grey;
+}
 
 body {
   font-family: $fontFamily;
@@ -40,16 +57,6 @@ nav {
       width: 60px;
       height: 60px;
     }
-  }
-
-  .collab-button {
-    background: $purple;
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    line-height: 60px;
-    padding: 0 20px;
-    height: 60px;
   }
 }
 
@@ -117,10 +124,22 @@ nav {
     }
   }
 
-  .collab-button {
+  .primary-button,
+  .secondary-button {
+    &:hover {
+      transition: ease .3s;
+    }
+  }
+
+  .primary-button {
     &:hover {
       background: $dark-purple;
-      transition: ease .3s;
+    }
+  }
+
+  .secondary-button {
+    &:hover {
+      background: $grey-hover;
     }
   }
 
@@ -154,7 +173,7 @@ nav {
       }
     }
   
-    .collab-button {
+    .button {
       line-height: 40px;
       padding: 0 14px;
       height: 40px;
