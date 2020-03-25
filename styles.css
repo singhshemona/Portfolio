@@ -1,3 +1,20 @@
+.button {
+  border-radius: 6px;
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 20px;
+  height: 60px;
+  color: white;
+}
+
+.primary-button {
+  background: #C06C85;
+}
+
+.secondary-button {
+  background: #a9a9a9;
+}
+
 body {
   font-family: "Slabo 27px", serif;
 }
@@ -10,21 +27,10 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 28px;
-}
-nav .social-media {
-  margin-right: 26px;
+  margin-right: 20px;
 }
 nav .social-media img {
   width: 60px;
-  height: 60px;
-}
-nav .collab-button {
-  background: #C06C85;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  line-height: 60px;
-  padding: 0 20px;
   height: 60px;
 }
 
@@ -35,7 +41,7 @@ nav .collab-button {
   font-size: 120px;
 }
 .opening-text h2 {
-  color: #8f8f8f;
+  color: #a9a9a9;
   font-size: 58px;
   max-width: 730px;
   margin: auto auto 80px auto;
@@ -51,7 +57,7 @@ nav .collab-button {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  color: #8f8f8f;
+  color: #a9a9a9;
   margin-bottom: 60px;
   font-size: 30px;
 }
@@ -79,13 +85,21 @@ nav .collab-button {
     transition: 0.3s ease;
   }
 
-  .collab-button:hover {
-    background: #a6536c;
+  .primary-button:hover,
+.secondary-button:hover {
     transition: ease 0.3s;
   }
 
+  .primary-button:hover {
+    background: #a6536c;
+  }
+
+  .secondary-button:hover {
+    background: #9b9a9a;
+  }
+
   nav a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .opening-text h1 {
@@ -101,14 +115,17 @@ nav .collab-button {
     font-size: 24px;
   }
 
-  nav .social-media img {
-    width: 40px;
-    height: 40px;
+  nav a {
+    margin-right: 10px;
   }
-  nav .collab-button {
-    line-height: 40px;
-    padding: 0 14px;
-    height: 40px;
+  nav .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+  nav .button {
+    line-height: 30px;
+    padding: 0 10px;
+    height: 30px;
   }
 }
 

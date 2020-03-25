@@ -3,9 +3,10 @@
 $fontFamily: 'Slabo 27px', serif;
 $purple: #C06C85;
 $dark-purple: #a6536c;
-$grey: #8f8f8f;
+$grey: #a9a9a9;
 $light-grey: #e9e9e9;
 $grey-hover: #d7d7d7;
+$secondary-button-hover: #9b9a9a;
 
 // MIXINS
 
@@ -32,7 +33,7 @@ $grey-hover: #d7d7d7;
 }
 
 .secondary-button {
-  background: $light-grey;
+  background: $grey;
 }
 
 body {
@@ -48,15 +49,12 @@ nav {
   a {
     text-decoration: none;
     font-size: 28px;
+    margin-right: 20px;
   }
 
-  .social-media {
-    margin-right: 26px;
-
-    img {
-      width: 60px;
-      height: 60px;
-    }
+  .social-media img {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -139,12 +137,12 @@ nav {
 
   .secondary-button {
     &:hover {
-      background: $grey-hover;
+      background: $secondary-button-hover;
     }
   }
 
   nav a {
-      font-size: 18px;
+      font-size: 16px;
   }
 
   .opening-text {
@@ -166,17 +164,20 @@ nav {
   }
   
   nav {
-    .social-media {  
-      img {
-        width: 40px;
-        height: 40px;
-      }
+
+    a {
+      margin-right: 10px;
+    }
+
+    .social-media img {  
+      width: 30px;
+      height: 30px;
     }
   
     .button {
-      line-height: 40px;
-      padding: 0 14px;
-      height: 40px;
+      line-height: 30px;
+      padding: 0 10px;
+      height: 30px;
     }
   }
  
