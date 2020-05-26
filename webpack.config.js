@@ -6,4 +6,10 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  resolve: {
+    alias: {
+      images: path.resolve(__dirname, 'src/images/'),
+      styles: path.resolve(__dirname, 'src/styles/'),
+    },
+  },
 };

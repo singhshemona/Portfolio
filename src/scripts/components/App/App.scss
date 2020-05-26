@@ -1,5 +1,6 @@
-@import '../../../styles/variables.scss';
+@import 'styles/_variables';
 
 body {
   font-family: $fontFamily;
+  margin: 0;
 }
