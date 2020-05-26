@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from "react-dom";
 import './Header.scss';
 import LinkedinLogo from '../../../../images/linkedin.png';
 
 function Header() {
   return (
-    <header className="App-header">
+    <header className="navigation">
       <a className="social-media" href="https://www.linkedin.com/in/shemonasingh/" target="_blank" rel="noopener noreferrer">
         <img src={LinkedinLogo} alt="Linkedin Logo" />
       </a>

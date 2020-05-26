@@ -6,3 +6,13 @@
   height: 60px;
   color: white;
 }
+
+
+@mixin primary-button {
+  @include button;
+  background: $purple;
+}
+
+@mixin secondary-button {
+  background: $grey;
+}
