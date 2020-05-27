@@ -1,12 +1,12 @@
 import React from 'react';
-import './Link.scss';
+import './ExternalLink.scss';
 
-function ExternalLink(link: string, content: any) {
-  return (
-      <a className="link" href={link} target="_blank" rel="noopener noreferrer">
-        {content}
-      </a>
-  );
+type Props = {
+  link: string,
+  content: any,
 }
 
-export default ExternalLink;
+export const ExternalLink = ({ link, content }: Props) =>
+  <a className="link" href={ link } target="_blank" rel="noopener noreferrer">
+    { content }
+  </a>

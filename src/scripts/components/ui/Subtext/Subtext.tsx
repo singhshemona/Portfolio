@@ -1,7 +1,7 @@
 import React from 'react';
 import './Subtext.scss';
 
-function Subtext() {
+const Subtext = () => {
   return (
     <div className="opening-text" >
       <h1>I'm Shemona, I design with code.</h1>
