@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   margin-bottom: 80px;
 
@@ -13,10 +13,6 @@
   .social-media img {
     width: 60px;
     height: 60px;
-  }
-
-  .dev-to-logo {
-    width: fit-content;
   }
 }
 

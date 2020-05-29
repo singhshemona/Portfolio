@@ -22,7 +22,7 @@ const Header = () => {
       />
       <ExternalLink
         link="https://dev.to/singhshemona"
-        content={<img className="dev-to-logo" src={DevToLogo} alt="Dev to Logo" />}
+        content={<img src={DevToLogo} alt="Dev to Logo" />}
       />
     </header>
   );

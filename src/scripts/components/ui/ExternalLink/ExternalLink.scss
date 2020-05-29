@@ -1,5 +1,13 @@
+@import 'styles/_variables.scss';
+
 .link {
+  color: $aqua;
+
   img {
-    max-width: 30px;
+    width: 40px;
+  }
+
+  &:hover {
+    text-decoration: none;
   }
 }
