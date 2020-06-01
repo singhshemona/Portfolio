@@ -1,9 +1,11 @@
 import React from 'react';
 import './Header.scss';
 import { ExternalLink } from '../ExternalLink/ExternalLink';
-import LinkedinLogo from 'images/linkedin.svg';
-import NotionLogo from 'images/notion.svg';
-import DevToLogo from 'images/dev-logo.svg';
+import LinkedinLogo from 'images/logos/linkedin.svg';
+import NotionLogo from 'images/logos/notion.svg';
+import DevToLogo from 'images/logos/dev.svg';
+import GithubLogo from 'images/logos/github.svg';
+import BehanceLogo from 'images/logos/behance.svg';
 
 const Header = () => {
   return (
@@ -23,6 +25,14 @@ const Header = () => {
       <ExternalLink
         link="https://dev.to/singhshemona"
         content={<img src={DevToLogo} alt="Dev to Logo" />}
+      />
+      <ExternalLink
+        link="https://github.com/singhshemona"
+        content={<img src={GithubLogo} alt="Github Logo" />}
+      />
+      <ExternalLink
+        link="https://www.behance.net/singhshemona/projects"
+        content={<img src={BehanceLogo} alt="Github Logo" />}
       />
     </header>
   );

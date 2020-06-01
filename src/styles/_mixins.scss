@@ -1,18 +1,22 @@
-@mixin button {
-  border-radius: 6px;
-  text-decoration: none;
-  line-height: 60px;
-  padding: 0 20px;
-  height: 60px;
-  color: white;
-}
+@import 'styles/_variables.scss';
 
+@mixin button {
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-family: $mainFontFamily;
+
+  &:focus {
+    outline-style: dotted;
+    outline-width: medium;
+    outline-offset: 5px;
+    outline-color: $blue;
+  }
+}
 
 @mixin primary-button {
   @include button;
-  background: $purple;
-}
-
-@mixin secondary-button {
-  background: $grey;
+  background: $blue;
 }
