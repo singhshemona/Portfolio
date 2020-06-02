@@ -4,12 +4,6 @@ import { ExternalLink } from '../ExternalLink/ExternalLink';
 import { Button } from '../Button/Button';
 
 const OpeningText = () => {
-
-  const email = () => {
-    window.location.href = "mailto:singhshemona@gmail.com";
-    console.log(window.location.href);
-  };
-
   return (
     <div className="opening-text" >
       <h1>I'm Shemona, I <span className="design">design</span> with <code>code</code>.</h1>
@@ -23,7 +17,9 @@ const OpeningText = () => {
       <Button
         level="primary-button"
         content="Let's Collaborate"
-        onClick={email}
+        onClick={() =>
+          window.location.href='https://www.linkedin.com/in/shemonasingh/detail/contact-info/'
+        }
       />
     </div>
   );

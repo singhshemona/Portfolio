@@ -23,16 +23,16 @@ const Header = () => {
         }
       />
       <ExternalLink
-        link="https://dev.to/singhshemona"
-        content={<img src={DevToLogo} alt="Dev to Logo" />}
+        link="https://www.behance.net/singhshemona/projects"
+        content={<img src={BehanceLogo} alt="Github Logo" />}
       />
       <ExternalLink
         link="https://github.com/singhshemona"
         content={<img src={GithubLogo} alt="Github Logo" />}
       />
       <ExternalLink
-        link="https://www.behance.net/singhshemona/projects"
-        content={<img src={BehanceLogo} alt="Github Logo" />}
+        link="https://dev.to/singhshemona"
+        content={<img src={DevToLogo} alt="Dev to Logo" />}
       />
     </header>
   );
