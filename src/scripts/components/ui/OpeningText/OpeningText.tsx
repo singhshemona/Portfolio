@@ -18,7 +18,7 @@ const OpeningText = () => {
         level="primary-button"
         content="Let's Collaborate"
         onClick={() =>
-          window.location.href='https://www.linkedin.com/in/shemonasingh/detail/contact-info/'
+          window.location.href='https://www.linkedin.com/in/shemonasingh/'
         }
       />
     </div>
