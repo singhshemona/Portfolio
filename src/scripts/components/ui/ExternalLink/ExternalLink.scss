@@ -1,0 +1,13 @@
+@import 'styles/_variables.scss';
+
+.link {
+  color: $blue;
+
+  img {
+    width: 40px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
