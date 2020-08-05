@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.01cbe01c.chunk.css",
-    "main.js": "/static/js/main.8c115c79.chunk.js",
-    "main.js.map": "/static/js/main.8c115c79.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.67a03ee4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.67a03ee4.js.map",
-    "static/js/2.940b359e.chunk.js": "/static/js/2.940b359e.chunk.js",
-    "static/js/2.940b359e.chunk.js.map": "/static/js/2.940b359e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b2054e0d72deb50682aa46991713c686.js": "/precache-manifest.b2054e0d72deb50682aa46991713c686.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.01cbe01c.chunk.css.map": "/static/css/main.01cbe01c.chunk.css.map",
-    "static/js/2.940b359e.chunk.js.LICENSE.txt": "/static/js/2.940b359e.chunk.js.LICENSE.txt",
-    "static/media/behance.svg": "/static/media/behance.05dc0473.svg",
-    "static/media/dev.svg": "/static/media/dev.453b538d.svg",
-    "static/media/freeCodeCamp.svg": "/static/media/freeCodeCamp.82fd6bc4.svg",
-    "static/media/github.svg": "/static/media/github.07883e93.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.84a607a7.svg",
-    "static/media/notion.svg": "/static/media/notion.56c92251.svg"
+    "main.css": "/singhshemona/static/css/main.01cbe01c.chunk.css",
+    "main.js": "/singhshemona/static/js/main.fdf7ba3d.chunk.js",
+    "main.js.map": "/singhshemona/static/js/main.fdf7ba3d.chunk.js.map",
+    "runtime-main.js": "/singhshemona/static/js/runtime-main.38375220.js",
+    "runtime-main.js.map": "/singhshemona/static/js/runtime-main.38375220.js.map",
+    "static/js/2.940b359e.chunk.js": "/singhshemona/static/js/2.940b359e.chunk.js",
+    "static/js/2.940b359e.chunk.js.map": "/singhshemona/static/js/2.940b359e.chunk.js.map",
+    "index.html": "/singhshemona/index.html",
+    "precache-manifest.d6fb40f610a7dcff3b4b43942706513d.js": "/singhshemona/precache-manifest.d6fb40f610a7dcff3b4b43942706513d.js",
+    "service-worker.js": "/singhshemona/service-worker.js",
+    "static/css/main.01cbe01c.chunk.css.map": "/singhshemona/static/css/main.01cbe01c.chunk.css.map",
+    "static/js/2.940b359e.chunk.js.LICENSE.txt": "/singhshemona/static/js/2.940b359e.chunk.js.LICENSE.txt",
+    "static/media/behance.svg": "/singhshemona/static/media/behance.05dc0473.svg",
+    "static/media/dev.svg": "/singhshemona/static/media/dev.453b538d.svg",
+    "static/media/freeCodeCamp.svg": "/singhshemona/static/media/freeCodeCamp.82fd6bc4.svg",
+    "static/media/github.svg": "/singhshemona/static/media/github.07883e93.svg",
+    "static/media/linkedin.svg": "/singhshemona/static/media/linkedin.84a607a7.svg",
+    "static/media/notion.svg": "/singhshemona/static/media/notion.56c92251.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.67a03ee4.js",
+    "static/js/runtime-main.38375220.js",
     "static/js/2.940b359e.chunk.js",
     "static/css/main.01cbe01c.chunk.css",
-    "static/js/main.8c115c79.chunk.js"
+    "static/js/main.fdf7ba3d.chunk.js"
   ]
 }
