@@ -1,14 +1,24 @@
 import React from 'react';
-import Header from '../ui/Header/Header';
-import OpeningText from '../ui/OpeningText/OpeningText';
+import { Home } from '../Home/Home';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import './App.scss';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <OpeningText />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+        {/* <Route path="/users">
+          <Users />
+        </Route> */}
+      </Switch>
+    </Router>
   );
 }
 

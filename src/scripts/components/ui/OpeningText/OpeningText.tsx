@@ -6,6 +6,7 @@ import { Button } from '../Button/Button';
 const OpeningText = () => {
   return (
     <div className="opening-text" >
+      <span role="img" aria-label="Female Technologist Emoji" className="emoji">👩🏽‍💻</span>
       <h1>I'm Shemona, I <span className="design">design</span> with <code>code</code>.</h1>
       <h2>
         Currently a Design Technologist at {' '}
