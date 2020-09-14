@@ -1,11 +1,11 @@
 import React from 'react';
-import { Home } from '../Home/Home';
+import Home from '../Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
-import './App.scss';
+import 'styles/index.scss';
 
 export const App = () => {
   return (

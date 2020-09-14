@@ -1,3 +1,21 @@
 .skeleton {
-  display: flex;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+
+  .left {
+    @media (min-width: 768px) {
+      flex: 1;
+    }
+  }
+
+  .right {
+    margin: 0 40px;
+
+    @media (min-width: 768px) {
+      flex: 2;
+      margin: 0;
+    }
+  }
 }
+

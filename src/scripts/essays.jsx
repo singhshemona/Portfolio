@@ -3,13 +3,15 @@ import React from 'react';
 export default [
   {
     id: 1,
+    link: 'FirstEssay',
     title: 'First Essay',
     date: <p>testing</p>,
     timeToRead: '3 minutes',
-    content: 'Hello thereHello thereHello thereHello thereHello thereHello there',
+    content: 'Hello there Hello there Hello there Hello there Hello there Hello there',
   },
   {
     id: 2,
+    link: 'FirstEssay',
     title: 'Second Essay',
     date: <p>testing</p>,
     timeToRead: '2 minutes',
