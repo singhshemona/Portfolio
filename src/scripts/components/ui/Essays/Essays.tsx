@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import essays from '../../../essays';
+import essays from './allEssays';
 import './Essays.scss';
 
 const Essays = () => {
   return (
-    <div>
+    <div className='essays'>
       {
-        essays.map((essay, index) => (
-          <div key={index}>
+        essays.map((essay) => (
+          <div className='essay'>
             <h3><Link to={essay.link}>{essay.title}</Link></h3>
             {essay.date}
-            <p>{essay.content.substring(0, 50)}</p> 
+            <p className='content'>{essay.content.substring(0, 50)}</p> 
           </div>
         ))
       } 

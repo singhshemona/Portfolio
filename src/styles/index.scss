@@ -4,3 +4,12 @@ body {
   font-family: $mainFontFamily;
   margin: 0;
 }
+
+
+a {
+  color: $blue;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

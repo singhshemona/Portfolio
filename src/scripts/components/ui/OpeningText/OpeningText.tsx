@@ -1,7 +1,6 @@
 import React from 'react';
 import './OpeningText.scss';
 import ExternalLink from '../ExternalLink/ExternalLink';
-import Button from '../Button/Button';
 
 const OpeningText = () => {
   return (
@@ -15,13 +14,6 @@ const OpeningText = () => {
         content="Indeed.com"
         />
       </h2>
-      <Button
-        level="primary-button"
-        content="Let's Collaborate"
-        onClick={() =>
-          window.location.href='https://www.linkedin.com/in/shemonasingh/detail/contact-info/'
-        }
-      />
     </div>
   );
 }

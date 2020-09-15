@@ -1,14 +1,7 @@
 @import 'styles/_variables.scss';
+@import 'styles/_mixins.scss';
 
 .opening-text {
-  margin: 70px 40px;
-  text-align: center;
-
-  @media (min-width: 768px) {
-    text-align: left;
-    margin: 0 50px;
-  }
-
   .emoji {
     font-size: 60px;
   }

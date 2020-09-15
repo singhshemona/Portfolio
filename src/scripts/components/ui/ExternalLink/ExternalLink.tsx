@@ -1,5 +1,4 @@
 import React from 'react';
-import './ExternalLink.scss';
 
 type Props = {
   link: string,

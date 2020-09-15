@@ -4,7 +4,7 @@ export default [
   {
     id: 1,
     link: 'FirstEssay',
-    title: 'First Essay',
+    title: 'First Essay Title',
     date: <p>testing</p>,
     timeToRead: '3 minutes',
     content: 'Hello there Hello there Hello there Hello there Hello there Hello there',
@@ -12,7 +12,7 @@ export default [
   {
     id: 2,
     link: 'FirstEssay',
-    title: 'Second Essay',
+    title: 'Second Essay Title',
     date: <p>testing</p>,
     timeToRead: '2 minutes',
     content: 'Hello there',
