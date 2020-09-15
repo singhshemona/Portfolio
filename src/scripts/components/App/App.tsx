@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import 'styles/index.scss';
 
-export const App = () => {
+const App = () => {
   return (
     <Router>
       <Switch>

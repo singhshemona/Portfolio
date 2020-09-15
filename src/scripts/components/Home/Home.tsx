@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../ui/Header/Header';
 import OpeningText from '../ui/OpeningText/OpeningText';
-import {Essays} from '../ui/Essays/Essays';
+import Essays from '../ui/Essays/Essays';
 import './Home.scss';
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
       <Header/>
@@ -20,4 +20,4 @@ export const Home = () => {
   );
 }
 
-export default Home
+export default Home;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './OpeningText.scss';
-import { ExternalLink } from '../ExternalLink/ExternalLink';
-import { Button } from '../Button/Button';
+import ExternalLink from '../ExternalLink/ExternalLink';
+import Button from '../Button/Button';
 
 const OpeningText = () => {
   return (

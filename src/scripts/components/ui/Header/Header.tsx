@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import { ExternalLink } from '../ExternalLink/ExternalLink';
+import ExternalLink from '../ExternalLink/ExternalLink';
 import LinkedinLogo from 'images/logos/linkedin.svg';
 // import NotionLogo from 'images/logos/notion.svg';
 // import DevToLogo from 'images/logos/dev.svg';

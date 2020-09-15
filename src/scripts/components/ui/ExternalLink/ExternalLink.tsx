@@ -7,7 +7,9 @@ type Props = {
   target?: string,
 }
 
-export const ExternalLink = ({ link, content, target }: Props) =>
+const ExternalLink = ({ link, content, target }: Props) =>
   <a className={ 'link ' + target } href={ link } target="_blank" rel="noopener noreferrer">
     { content }
   </a>
+
+export default ExternalLink;

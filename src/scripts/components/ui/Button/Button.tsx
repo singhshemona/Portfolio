@@ -7,7 +7,9 @@ type Props = {
   onClick?: () => (any),
 }
 
-export const Button = ({ level, content, onClick }: Props) =>
+const Button = ({ level, content, onClick }: Props) =>
   <button type="button" className={ level } onClick={ onClick } aria-label={ content }>
     { content }
   </button>
+
+export default Button;
