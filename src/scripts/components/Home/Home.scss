@@ -12,6 +12,23 @@
       text-align: left;
       margin: 0 50px;
     }
+
+    .hobbies {
+      padding-left: 0;
+
+      @media (min-width: 768px) {
+        padding-left: 20px;
+      }
+
+      li {
+        margin: 6px 0;
+        list-style-type: none;
+
+        @media (min-width: 768px) {
+          list-style-type: circle;
+        }
+      }
+    } 
   }
 
   .right {

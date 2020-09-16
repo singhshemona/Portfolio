@@ -1,9 +1,10 @@
 @import 'styles/_variables.scss';
 
-.content {
-  font-family: $essaysFontFamily;
-}
-
 .essay {
-  margin: 30px 0;
+  font-family: $essaysFontFamily;
+  margin-bottom: 30px;
+
+  h3 {
+    margin-top: 0;
+  }
 }

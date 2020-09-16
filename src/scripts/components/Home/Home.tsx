@@ -13,17 +13,28 @@ const Home = () => {
         <div className="left">
           <OpeningText />
           <p>When I'm not working, I enjoy:</p>
-          <ul title="hobbies">
+          <ul className="hobbies" title="hobbies">
               <li>
                 <ExternalLink
                   link='https://www.notion.so/shemona/s-h-e-m-o-n-a-cb739b6a13ce490ba1d422f204397071'
                   content='Building a Second Brain'
                 />
               </li>
+              <li>
+                <ExternalLink
+                  link='https://dev.to/singhshemona'
+                  content='Writing about technical discoveries'
+                />
+              </li>
+              <li>
+                <ExternalLink
+                  link='https://forum.freecodecamp.org/u/singhshemona/summary'
+                  content='Working towards solutions with other devs'
+                />
+              </li>
           </ul>
         </div>
         <div className="right">
-          <h2>Thoughts</h2>
           <Essays />
         </div>
       </div>
