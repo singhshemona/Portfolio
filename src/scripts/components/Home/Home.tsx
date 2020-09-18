@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../ui/Header/Header';
 import OpeningText from '../ui/OpeningText/OpeningText';
 import ExternalLink from '../ui/ExternalLink/ExternalLink';
+import Form from '../ui/Form';
 import Essays from '../ui/Essays/Essays';
 import './Home.scss';
 
@@ -33,6 +34,7 @@ const Home = () => {
                 />
               </li>
           </ul>
+          <Form />
         </div>
         <div className="right">
           <Essays />

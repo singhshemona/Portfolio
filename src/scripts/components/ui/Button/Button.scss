@@ -1,14 +1,33 @@
 @import 'styles/_mixins.scss';
 
 .primary-button {
-  @include primary-button;
+  @include button;
+  background: $blue;
+}
+
+.secondary-button {
+  @include button;
+  background: $pink;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
+  .primary-button,
+  .secondary-button {
+    &:hover {
+      transition: ease .3s;
+    }
+  }
+
   .primary-button {
     &:hover {
       background: $hoverBlue;
-      transition: ease .3s;
+    }
+  }
+
+  .secondary-button {
+    &:hover {
+      background: $hoverPink;
     }
   }
 }
