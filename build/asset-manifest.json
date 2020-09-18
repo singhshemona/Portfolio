@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/singhshemona.github.io/static/css/main.01cbe01c.chunk.css",
-    "main.js": "/singhshemona.github.io/static/js/main.c7712a31.chunk.js",
-    "main.js.map": "/singhshemona.github.io/static/js/main.c7712a31.chunk.js.map",
+    "main.css": "/singhshemona.github.io/static/css/main.06c73d57.chunk.css",
+    "main.js": "/singhshemona.github.io/static/js/main.825639f1.chunk.js",
+    "main.js.map": "/singhshemona.github.io/static/js/main.825639f1.chunk.js.map",
     "runtime-main.js": "/singhshemona.github.io/static/js/runtime-main.39fe9748.js",
     "runtime-main.js.map": "/singhshemona.github.io/static/js/runtime-main.39fe9748.js.map",
-    "static/js/2.940b359e.chunk.js": "/singhshemona.github.io/static/js/2.940b359e.chunk.js",
-    "static/js/2.940b359e.chunk.js.map": "/singhshemona.github.io/static/js/2.940b359e.chunk.js.map",
+    "static/js/2.3dbe432c.chunk.js": "/singhshemona.github.io/static/js/2.3dbe432c.chunk.js",
+    "static/js/2.3dbe432c.chunk.js.map": "/singhshemona.github.io/static/js/2.3dbe432c.chunk.js.map",
     "index.html": "/singhshemona.github.io/index.html",
-    "precache-manifest.0610912e616bac85923b1d5c94f9b148.js": "/singhshemona.github.io/precache-manifest.0610912e616bac85923b1d5c94f9b148.js",
+    "precache-manifest.d35e6d1a43ee569f391f354a0e9853f9.js": "/singhshemona.github.io/precache-manifest.d35e6d1a43ee569f391f354a0e9853f9.js",
     "service-worker.js": "/singhshemona.github.io/service-worker.js",
-    "static/css/main.01cbe01c.chunk.css.map": "/singhshemona.github.io/static/css/main.01cbe01c.chunk.css.map",
-    "static/js/2.940b359e.chunk.js.LICENSE.txt": "/singhshemona.github.io/static/js/2.940b359e.chunk.js.LICENSE.txt",
+    "static/css/main.06c73d57.chunk.css.map": "/singhshemona.github.io/static/css/main.06c73d57.chunk.css.map",
+    "static/js/2.3dbe432c.chunk.js.LICENSE.txt": "/singhshemona.github.io/static/js/2.3dbe432c.chunk.js.LICENSE.txt",
     "static/media/behance.svg": "/singhshemona.github.io/static/media/behance.05dc0473.svg",
-    "static/media/dev.svg": "/singhshemona.github.io/static/media/dev.453b538d.svg",
-    "static/media/freeCodeCamp.svg": "/singhshemona.github.io/static/media/freeCodeCamp.82fd6bc4.svg",
     "static/media/github.svg": "/singhshemona.github.io/static/media/github.07883e93.svg",
-    "static/media/linkedin.svg": "/singhshemona.github.io/static/media/linkedin.84a607a7.svg",
-    "static/media/notion.svg": "/singhshemona.github.io/static/media/notion.56c92251.svg"
+    "static/media/linkedin.svg": "/singhshemona.github.io/static/media/linkedin.84a607a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.39fe9748.js",
-    "static/js/2.940b359e.chunk.js",
-    "static/css/main.01cbe01c.chunk.css",
-    "static/js/main.c7712a31.chunk.js"
+    "static/js/2.3dbe432c.chunk.js",
+    "static/css/main.06c73d57.chunk.css",
+    "static/js/main.825639f1.chunk.js"
   ]
 }
