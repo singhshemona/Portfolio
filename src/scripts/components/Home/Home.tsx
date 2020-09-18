@@ -12,7 +12,7 @@ const Home = () => {
       <div className="skeleton">
         <div className="left">
           <OpeningText />
-          <p>When I'm not working, I enjoy:</p>
+          <p>I also enjoy:</p>
           <ul className="hobbies" title="hobbies">
               <li>
                 <ExternalLink

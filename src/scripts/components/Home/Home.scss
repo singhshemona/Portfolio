@@ -1,16 +1,24 @@
+@import 'styles/_variables.scss';
+
 .skeleton {
   @media (min-width: 768px) {
     display: flex;
   }
 
+
+  .left,
+  .right {
+    margin: 0 40px;
+  }
+
   .left {
-    margin: 70px 40px;
     text-align: center;
+    margin-bottom: 50px;
 
     @media (min-width: 768px) {
       flex: 1;
       text-align: left;
-      margin: 0 50px;
+      margin-bottom: 0px;
     }
 
     .hobbies {
@@ -32,11 +40,29 @@
   }
 
   .right {
-    margin: 0 40px;
-
     @media (min-width: 768px) {
       flex: 2;
-      margin-right: 200px;
+    }
+
+    @media (min-width: 1150px) {
+      margin-right: 250px;
+    }
+
+    .essay {
+      margin-bottom: 50px;
+
+      h3 {
+        margin: 0 0 10px 0;
+        font-size: 26px;
+      }
+    
+      .date-time {
+        color: $grey;
+      }
+    
+      .content {
+        line-height: 22px;
+      }
     }
   }
 }

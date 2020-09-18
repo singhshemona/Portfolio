@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import essays from './allEssays';
-import './Essays.scss';
+import ExternalLink from '../ExternalLink/ExternalLink';
 
 const Essays = () => {
   return (
@@ -9,11 +8,13 @@ const Essays = () => {
       {
         essays.map((essay) => (
           <div key={essay.id} className='essay'>
-            <h3><Link to={essay.link}>{essay.title}</Link></h3>
-            <div className="date-time">
-              <p className="date">{essay.date}</p>
-              <p className="time">{essay.timeToRead} minute read</p>
-            </div>
+            <h3>
+              <ExternalLink
+                link={essay.link}
+                content={essay.title}
+              />
+            </h3>
+            <p className="date-time">{essay.date} - {essay.timeToRead} minute read</p>
             <p className='content'>{essay.content}</p> 
           </div>
         ))
