@@ -8,13 +8,13 @@ const Essays = () => {
     <>
       {
         essays.map((essay) => (
-          <div className='essay'>
+          <div key={essay.id} className='essay'>
             <h3><Link to={essay.link}>{essay.title}</Link></h3>
-            <div>
-              {essay.date}
-              {essay.timeToRead}
+            <div className="date-time">
+              <p className="date">{essay.date}</p>
+              <p className="time">{essay.timeToRead} minute read</p>
             </div>
-            <p className='content'>{essay.content.substring(0, 50)}</p> 
+            <p className='content'>{essay.content}</p> 
           </div>
         ))
       } 

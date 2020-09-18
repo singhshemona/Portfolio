@@ -7,4 +7,16 @@
   h3 {
     margin-top: 0;
   }
+
+  .date-time {
+    display: flex;
+
+    .date {
+      flex: 1;
+    }
+
+    .time {
+      flex: 4;
+    }
+  }
 }
