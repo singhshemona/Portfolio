@@ -14,7 +14,7 @@ const Essays = () => {
                 content={essay.title}
               />
             </h3>
-            <p className="date-time">{essay.date} - {essay.timeToRead} minute read</p>
+            <p className="time">{essay.timeToRead} minute read</p>
             <p className='content'>{essay.content}</p> 
           </div>
         ))

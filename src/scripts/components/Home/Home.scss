@@ -50,14 +50,19 @@
     }
 
     .essay {
-      margin-bottom: 50px;
+      margin-bottom: 36px;
 
       h3 {
         margin: 0 0 10px 0;
         font-size: 26px;
       }
+
+      .time,
+      .content {
+        margin: 10px 0;
+      }
     
-      .date-time {
+      .time {
         color: $grey;
       }
     
