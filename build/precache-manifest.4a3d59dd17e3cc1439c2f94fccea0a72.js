@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "451b6ee1cbaefc22f1d8ce83f86b2fc4",
+    "revision": "c9bb4892c9e58b1ab97dbaaf50d83edb",
     "url": "/singhshemona.github.io/index.html"
   },
   {
-    "revision": "8eb0eabab647372f3f50",
-    "url": "/singhshemona.github.io/static/css/main.815c1bc5.chunk.css"
+    "revision": "773bf3c5fa1f4270bc33",
+    "url": "/singhshemona.github.io/static/css/main.88c56dda.chunk.css"
   },
   {
     "revision": "586b2add8821eadf69da",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/singhshemona.github.io/static/js/2.497967dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8eb0eabab647372f3f50",
-    "url": "/singhshemona.github.io/static/js/main.8084a70b.chunk.js"
+    "revision": "773bf3c5fa1f4270bc33",
+    "url": "/singhshemona.github.io/static/js/main.d5bba7b5.chunk.js"
   },
   {
     "revision": "28ba4087b161a49fc12d",

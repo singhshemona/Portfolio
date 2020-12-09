@@ -30,7 +30,7 @@ const Home = () => {
               <li>
                 <ExternalLink
                   link='https://forum.freecodecamp.org/u/singhshemona/summary'
-                  content='Working towards answers'
+                  content='Collaborating on questions in development'
                 />
               </li>
           </ul>
