@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/singhshemona.github.io/static/css/main.815c1bc5.chunk.css",
-    "main.js": "/singhshemona.github.io/static/js/main.027ca03c.chunk.js",
-    "main.js.map": "/singhshemona.github.io/static/js/main.027ca03c.chunk.js.map",
+    "main.js": "/singhshemona.github.io/static/js/main.8084a70b.chunk.js",
+    "main.js.map": "/singhshemona.github.io/static/js/main.8084a70b.chunk.js.map",
     "runtime-main.js": "/singhshemona.github.io/static/js/runtime-main.39fe9748.js",
     "runtime-main.js.map": "/singhshemona.github.io/static/js/runtime-main.39fe9748.js.map",
     "static/js/2.497967dc.chunk.js": "/singhshemona.github.io/static/js/2.497967dc.chunk.js",
     "static/js/2.497967dc.chunk.js.map": "/singhshemona.github.io/static/js/2.497967dc.chunk.js.map",
     "index.html": "/singhshemona.github.io/index.html",
-    "precache-manifest.44b278dcc8b021a8791b112d8b15e7b9.js": "/singhshemona.github.io/precache-manifest.44b278dcc8b021a8791b112d8b15e7b9.js",
+    "precache-manifest.5cbe6eda96b786da018dc93e7aba846c.js": "/singhshemona.github.io/precache-manifest.5cbe6eda96b786da018dc93e7aba846c.js",
     "service-worker.js": "/singhshemona.github.io/service-worker.js",
     "static/css/main.815c1bc5.chunk.css.map": "/singhshemona.github.io/static/css/main.815c1bc5.chunk.css.map",
     "static/js/2.497967dc.chunk.js.LICENSE.txt": "/singhshemona.github.io/static/js/2.497967dc.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.39fe9748.js",
     "static/js/2.497967dc.chunk.js",
     "static/css/main.815c1bc5.chunk.css",
-    "static/js/main.027ca03c.chunk.js"
+    "static/js/main.8084a70b.chunk.js"
   ]
 }

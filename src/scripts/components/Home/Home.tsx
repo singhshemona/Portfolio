@@ -17,8 +17,8 @@ const Home = () => {
           <ul className="hobbies" title="hobbies">
               <li>
                 <ExternalLink
-                  link='https://www.notion.so/shemona/s-h-e-m-o-n-a-cb739b6a13ce490ba1d422f204397071'
-                  content='Building a Second Brain'
+                  link='https://github.com/singhshemona'
+                  content='Building solutions for various facets of life'
                 />
               </li>
               <li>
@@ -30,7 +30,7 @@ const Home = () => {
               <li>
                 <ExternalLink
                   link='https://forum.freecodecamp.org/u/singhshemona/summary'
-                  content='Working towards solutions with other devs'
+                  content='Working towards answers'
                 />
               </li>
           </ul>
