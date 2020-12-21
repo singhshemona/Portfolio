@@ -1,13 +1,14 @@
 import React from 'react';
 import essays from './allEssays';
-import ExternalLink from '../ExternalLink/ExternalLink';
+import './Essays.scss';
+import { ExternalLink } from '../ExternalLink/ExternalLink';
 
-const Essays = () => {
+export const Essays = () => {
   return (
     <>
       {
         essays.map((essay) => (
-          <div key={essay.id} className='essay'>
+          <div key={essay.id} className='essays'>
             <h3>
               <ExternalLink
                 link={essay.link}
@@ -16,11 +17,15 @@ const Essays = () => {
             </h3>
             <p className="time">{essay.timeToRead} minute read</p>
             <p className='content'>{essay.content}</p> 
+            <h4>
+              <ExternalLink
+                link={essay.link}
+                content={'Read More →'}
+              />
+            </h4>
           </div>
         ))
-      } 
+      }
     </>
   );
 }
-
-export default Essays;

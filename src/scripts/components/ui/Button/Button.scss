@@ -1,20 +1,22 @@
-@import 'styles/_mixins.scss';
+@import 'styles/_variables.scss';
 
-.primary-button {
-  @include button;
-  background: $highlight;
-}
+.button {
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: $highlight;
+  border: 0;
+  font-family: $mainFontFamily;
+  border: 2px solid $highlight;
+  background: $background;
+  font-weight: bold;
 
-@media (min-width: 768px) {
-  .primary-button {
+  @media (min-width: 768px) {
     &:hover {
+      background: $highlight;
+      color: $background;
       transition: ease .3s;
     }
   }
-
-  .primary-button {
-    &:hover {
-      // background: $hoverBlue;
-    }
-  }
 }
+
+

@@ -1,7 +1,12 @@
 @import 'styles/_variables.scss';
-@import 'styles/_mixins.scss';
 
 .opening-text {
+  text-align: center;
+
+  @media (min-width: 500px) {
+    text-align: left;
+  }
+
   .emoji {
     font-size: 60px;
   }
@@ -15,6 +20,11 @@
     font-size: 40px;
     color: $secondary;
     font-family: 'Playfair Display', serif;
+    margin-top: 5px;
+
+    @media (min-width: 500px) {
+      font-size: 60px;
+    }
   }
 
   p {
