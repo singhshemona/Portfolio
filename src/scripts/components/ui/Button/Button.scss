@@ -2,18 +2,11 @@
 
 .primary-button {
   @include button;
-  background: $blue;
-}
-
-.secondary-button {
-  @include button;
-  background: $pink;
-  font-size: 20px;
+  background: $highlight;
 }
 
 @media (min-width: 768px) {
-  .primary-button,
-  .secondary-button {
+  .primary-button {
     &:hover {
       transition: ease .3s;
     }
@@ -21,13 +14,7 @@
 
   .primary-button {
     &:hover {
-      background: $hoverBlue;
-    }
-  }
-
-  .secondary-button {
-    &:hover {
-      background: $hoverPink;
+      // background: $hoverBlue;
     }
   }
 }

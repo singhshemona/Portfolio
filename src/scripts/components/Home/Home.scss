@@ -1,10 +1,15 @@
 @import 'styles/_variables.scss';
 
 .skeleton {
+  h2 {
+    font-size: 30px;
+    color: $secondary;
+    font-family: 'Playfair Display', serif;
+  }
+
   @media (min-width: 768px) {
     display: flex;
   }
-
 
   .left,
   .right {
@@ -50,20 +55,26 @@
     }
 
     .essay {
-      margin-bottom: 36px;
+      margin-bottom: 40px;
 
       h3 {
         margin: 0 0 10px 0;
-        font-size: 26px;
+        font-size: 18px;
+        text-transform: uppercase;
+        
+        a {
+          color: $highlight;
+        }
       }
 
       .time,
       .content {
         margin: 10px 0;
+        color: $primary;
       }
     
       .time {
-        color: $grey;
+        font-size: 14px;
       }
     
       .content {

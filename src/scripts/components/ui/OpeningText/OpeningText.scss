@@ -7,23 +7,18 @@
   }
 
   h1,
-  h2
   code {
     font-weight: 300;
   }
 
   h1 {
-    font-size: 34px;
-
-    .design {
-      color: $pink;
-      font-family: $designFontFamily;
-    }
+    font-size: 40px;
+    color: $secondary;
+    font-family: 'Playfair Display', serif;
   }
 
-  h2 {
-    color: $grey;
-    font-size: 22px;
-    margin: 40px 0;
+  p {
+    color: $primary;
+    font-size: 20px;
   }
 }

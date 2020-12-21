@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Playfair+Display&display=swap');
 
-$mainFontFamily: 'Roboto', sans-serif;
+$mainFontFamily: 'IBM Plex Mono', monospace;
 $designFontFamily: 'Shadows Into Light Two', cursive;
 
-$grey: #a4a4a4;
+$primary: #6b6768;
+$secondary: #233172;
+$highlight: #AB5232;
 
-$pink: #df957c;
-$hoverPink: #dd7f60;
-
-$blue: #659dd4;
-$hoverBlue: #4c89c4;
+$linkUnderline: #e4dee3;
