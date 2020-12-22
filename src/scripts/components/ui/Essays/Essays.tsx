@@ -5,10 +5,9 @@ import { ExternalLink } from '../ExternalLink/ExternalLink';
 
 export const Essays = () => {
   return (
-    <>
-      {
-        essays.map((essay) => (
-          <div key={essay.id} className='essays'>
+    <div className='essays'>
+      {essays.map((essay) => (
+          <div key={essay.id} className='essay'>
             <h3>
               <ExternalLink
                 link={essay.link}
@@ -24,8 +23,7 @@ export const Essays = () => {
               />
             </h4>
           </div>
-        ))
-      }
-    </>
+      ))}
+    </div>
   );
 }

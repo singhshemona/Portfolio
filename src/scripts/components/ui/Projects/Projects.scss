@@ -1,7 +1,38 @@
 @import 'styles/_variables.scss';
 
 .projects {
+  display: flex;
+  overflow: scroll;
+
+  @media (min-width: 768px) {
+    display: initial;
+    overflow: initial;
+  }
+
+  .project {
+    margin-right: 50px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+
   .heading {
     display: flex;
+    align-items: flex-start;
+
+    img {
+      margin-right: 16px;
+    }
+  }
+
+  .timeline, 
+  .tags {
+    margin: 5px 0;
+  }
+
+  .tags {
+    font-style: italic;
+    
   }
 }

@@ -13,21 +13,17 @@
   }
 
   .left {
-    margin-bottom: 50px;
+    margin-top: 40px;
 
     @media (min-width: 768px) {
       flex: 2;
-      margin-bottom: 0px;
+      margin: 0px;
     }
   }
 
   .right {
     @media (min-width: 768px) {
       flex: 3;
-    }
-
-    @media (min-width: 1150px) {
-      margin-right: 250px;
     }
   }
 
@@ -37,22 +33,19 @@
       margin: 0 0 10px 0;
       text-transform: uppercase;
     }
-
-    h3 {
-      font-size: 18px;
-    }
-
+    
     .time,
     .content,
-    .tags {
-      margin: 10px 0;
+    .tags,
+    .pitch,
+    .timeline {
       color: $primary;
-      font-weight: bold;
     }
   
     .time, 
     h4,
-    .tags {
+    .tags,
+    .timeline {
       font-size: 14px;
     }
   }

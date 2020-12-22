@@ -1,26 +1,26 @@
 export default [
   {
-    id: 1,
     title: 'Reconnecting',
-    tags: ['Education', 'Social'],
+    tags: ['React Native'],
+    timeline: 'Aug 2020 - Present',
     pitch: 'How might we meet the needs for connection while not drying up the well of our mental health?',
   },
   {
-    id: 2,
     title: 'Podcasts',
-    tags: ['Education', 'Design'],
+    tags: ['React Native', 'Expo', 'SQLlite', 'CSS in JS'],
+    timeline: 'Nov 2020 - Present',
     pitch: 'A platform to consume Podcasts in a more engaging manner.',
   },
   {
-    id: 2,
     title: 'Animations Library',
-    tags: ['Tech', 'Design'],
+    tags: ['React', 'SCSS'],
+    timeline: 'Feb 2020 - Nov 2020',
     pitch: 'Easy to adapt, (accessible and performant) animation templates.',
   },
   {
-    id: 2,
     title: 'Redux Course',
-    tags: ['Education', 'Spreading Access'],
+    tags: ['React / Redux', 'Cirriculum Development'],
+    timeline: 'Feb 2020 - Aug 2020',
     pitch: 'In an effort to learn Redux, I ventured to design a cirriculum around it as well.',
   },
 ];

@@ -2,13 +2,13 @@
 
 .button {
   border-radius: 6px;
-  padding: 6px 10px;
+  padding: 4px 8px;
   color: $highlight;
   border: 0;
   font-family: $mainFontFamily;
   border: 2px solid $highlight;
   background: $background;
-  font-weight: bold;
+  font-size: 12px;
 
   @media (min-width: 768px) {
     &:hover {

@@ -1,7 +1,20 @@
 .essays {
   margin-bottom: 50px;
 
+  .time,
+  .content {
+    margin: 10px 0;
+  }
+
   .content {
     line-height: 22px;
+  }
+
+  .essay {
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 50px;
+    }
   }
 }

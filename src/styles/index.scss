@@ -2,12 +2,16 @@
 
 body {
   font-family: $mainFontFamily;
-  margin: 0;
+  margin: 20px;
   background: $background;
+
+  @media (min-width: 768px) {
+    margin: 50px 80px;
+  }
 }
 
 .formkit-submit {
-  background: $secondary !important;
+  background: $highlight !important;
 }
 
 .formkit-powered-by {
