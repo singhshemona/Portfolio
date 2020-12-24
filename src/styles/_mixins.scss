@@ -1,0 +1,16 @@
+@import 'styles/_variables.scss';
+
+@mixin button {
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: $highlight;
+  border: 0;
+  font-family: $mainFontFamily;
+
+  &:focus {
+    outline-style: dotted;
+    outline-width: medium;
+    outline-offset: 5px;
+    outline-color: $highlight;
+  }
+}

@@ -1,5 +1,12 @@
+@import 'styles/_variables.scss';
+
 .essays {
   margin-bottom: 50px;
+
+  .title-link,
+  .read-more-link {
+    color: $highlight;
+  }
 
   .time,
   .content {

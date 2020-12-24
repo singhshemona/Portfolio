@@ -1,9 +1,9 @@
 import React from 'react';
-import { Header } from '../ui/Header/Header';
-import { OpeningText } from '../ui/OpeningText/OpeningText';
-import Form from '../ui/Form';
-import { Essays } from '../ui/Essays/Essays';
-import { Projects } from '../ui/Projects/Projects';
+import { Header } from '../../components/Header/Header';
+import { OpeningText } from '../../components/OpeningText/OpeningText';
+import Form from '../../components/Form';
+import { AllEssays } from '../../components/AllEssays/AllEssays';
+import { Projects } from '../../components/Projects/Projects';
 import './Home.scss';
 
 export const Home = () => {
@@ -18,7 +18,7 @@ export const Home = () => {
         </div>
         <div className="right">
           <h2>Writing</h2>
-          <Essays />
+          <AllEssays />
           <Form />
         </div>
       </div>
