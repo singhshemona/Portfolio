@@ -1,12 +1,5 @@
-@import 'styles/_variables.scss';
+@import 'styles/_mixins.scss';
 
 .link {
-  color: $highlight;
-  text-decoration: none;
-  border-bottom: 2px solid $linkUnderline;
-
-  &:hover {
-    opacity: .7;
-    transition: ease .3s;
-  }
+  @include links;
 }

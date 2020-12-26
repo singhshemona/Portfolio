@@ -1,53 +1,74 @@
 @import 'styles/_variables.scss';
 
-.skeleton {
-  h2 {
-    font-size: 30px;
-    color: $secondary;
-    font-family: 'Playfair Display', serif;
-    margin-top: 0;
-  }
+.home-page {
+  .opening-text {
+    .emoji {
+      font-size: 60px;
+    }
 
-  @media (min-width: 768px) {
-    display: flex;
-  }
+    h1 {
+      font-size: 40px;
+  
+      @media (min-width: 500px) {
+        font-size: 60px;
+      }
+    }
 
-  .left {
-    margin-top: 40px;
-
-    @media (min-width: 768px) {
-      flex: 2;
-      margin: 0px;
+    .bio {
+      font-size: 20px;
     }
   }
 
-  .right {
-    @media (min-width: 768px) {
-      flex: 3;
-    }
-  }
-
-  .essays, 
-  .projects {
-    h3, h4 {
-      margin: 0 0 10px 0;
-      text-transform: uppercase;
-    }
-    
-    .time,
-    .content,
-    .tags,
-    .pitch,
-    .timeline {
-      color: $primary;
+  .skeleton {
+    h2 {
+      font-size: 30px;
+      color: $secondary;
+      font-family: 'Playfair Display', serif;
+      margin-top: 0;
     }
   
-    .time, 
-    h4,
-    .tags,
-    .timeline {
-      font-size: 14px;
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  
+    .left {
+      margin-top: 40px;
+  
+      @media (min-width: 768px) {
+        flex: 2;
+        margin: 0px;
+      }
+    }
+  
+    .right {
+      @media (min-width: 768px) {
+        flex: 3;
+      }
+    }
+  
+    .essays, 
+    .projects {
+      h3, h4 {
+        margin: 0 0 10px 0;
+        text-transform: uppercase;
+      }
+      
+      .time,
+      .content,
+      .tags,
+      .pitch,
+      .timeline {
+        color: $primary;
+      }
+    
+      .time, 
+      h4,
+      .tags,
+      .timeline {
+        font-size: 14px;
+      }
     }
   }
 }
+
 

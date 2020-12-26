@@ -1,16 +1,12 @@
 @import 'styles/_variables.scss';
 
-@mixin button {
-  border-radius: 6px;
-  padding: 6px 10px;
+@mixin links {
   color: $highlight;
-  border: 0;
-  font-family: $mainFontFamily;
+  text-decoration: none;
+  border-bottom: 2px solid $linkUnderline;
 
-  &:focus {
-    outline-style: dotted;
-    outline-width: medium;
-    outline-offset: 5px;
-    outline-color: $highlight;
+  &:hover {
+    opacity: .7;
+    transition: ease .3s;
   }
 }

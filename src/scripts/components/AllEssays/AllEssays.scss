@@ -1,11 +1,11 @@
-@import 'styles/_variables.scss';
+@import 'styles/_mixins.scss';
 
 .essays {
   margin-bottom: 50px;
 
   .title-link,
   .read-more-link {
-    color: $highlight;
+    @include links;
   }
 
   .time,

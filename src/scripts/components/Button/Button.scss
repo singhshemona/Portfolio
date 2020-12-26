@@ -17,6 +17,15 @@
       transition: ease .3s;
     }
   }
+
+  @media (max-width: 500px) {
+    &:focus {
+      outline-style: dotted;
+      outline-width: medium;
+      outline-offset: 5px;
+      outline-color: $highlight;
+    }
+  }
 }
 
 

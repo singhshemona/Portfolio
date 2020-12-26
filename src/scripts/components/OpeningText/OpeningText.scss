@@ -1,18 +1,8 @@
 @import 'styles/_variables.scss';
 
 .opening-text {
-  text-align: center;
-
-  @media (min-width: 500px) {
-    text-align: left;
-  }
-
   @media (min-width: 768px) {
     margin-bottom: 70px;
-  }
-
-  .emoji {
-    font-size: 60px;
   }
 
   h1,
@@ -21,18 +11,15 @@
   }
 
   h1 {
-    font-size: 40px;
     color: $secondary;
     font-family: 'Playfair Display', serif;
     margin: 5px 0 20px 0;
 
     @media (min-width: 500px) {
-      font-size: 60px;
     }
   }
 
-  p {
+  .bio {
     color: $primary;
-    font-size: 20px;
   }
 }
