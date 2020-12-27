@@ -4,7 +4,7 @@ export default [
     link: 'https://www.notion.so/shemona/Changing-the-Narrative-4e58d9c2ddf243599d64babd721634a6',
     title: 'Changing the Narrative',
     timeToRead: 8,
-    content: 'We all tell ourselves stories everyday, about everyone and everything around us. These stories can be referred to as narratives. They are so embedded in the root of our ways, so subconscious, we often aren\'t even aware we function according to them. They are not necessarily mental models so much as they are the instinctive ways we explain the world and its happenings to our brains. Because they influence our instincts, they feed the everyday reactions we have and determine the vibrations we reverberate.',
+    content: '<p>testing</p><p class="testing">will this be on a new line</p>',
   },
   {
     id: 1,

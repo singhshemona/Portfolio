@@ -11,7 +11,13 @@ body {
 }
 
 .formkit-submit {
-  background: $highlight !important;
+  background: $background !important;
+  color: $highlight !important;
+  border: 2px solid $highlight !important;
+
+  &:hover {
+    background: transparent !important;
+  }
 }
 
 .formkit-powered-by {

@@ -1,27 +1,35 @@
-import React, { createContext, useState } from 'react';
-import { Home } from '../Home/Home';
-import { Essay } from '../Essay/Essay';
-import { Switch, Route } from "react-router-dom";
-import 'styles/index.scss';
+import React from 'react'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import { Home } from '../Home/Home'
+import { Essay } from '../Essay/Essay'
+import { Switch, Route } from "react-router-dom"
+import 'styles/index.scss'
 
-export const ID = createContext({
-  number: 0,
-  setNumber: () => {}
-})
+const initialState = {
+  essayId: 0
+}
+
+export const reducer = (state = initialState, action:any) => {
+  if (action.type === 'UPDATE_ESSAY') {
+      return {
+        ...state,
+        essayId: action.payload
+      };
+  }
+  return state
+}
+
+const store = createStore(reducer)
 
 const App = () => {
-  // const [number, setNumber] = useState({
-  //   number: 0,
-  //   setNumber: () => {}
-  // })
-  
   return (
-    // <ID.Provider value={ ID } >
+    <Provider store={store} >
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/essay' component={Essay} />
       </Switch>
-    // </ID.Provider>
+    </Provider>
     
   );
 }

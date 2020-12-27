@@ -1,23 +1,30 @@
-import React, { useContext } from 'react';
+import React from 'react';
+import { useDispatch } from 'react-redux'
 import essays from './essays';
 import './AllEssays.scss';
-import ID from '../../pages/App/App' 
 import { Link } from "react-router-dom";
 
 export const AllEssays = () => {
 
-  // const { number, setNumber } = useContext(ID);
-
-  const essayUpdate = (id: Number) => {
-    // setNumber(id);
-  }
+  const dispatch = useDispatch()
 
   return (
     <div className='essays'>
       {essays.map((essay) => (
         <div key={essay.id} className='essay'>
           <h3>
-            <Link onClick={() => essayUpdate(essay.id)} className="title-link" to="/essay">{essay.title}</Link>
+            <Link 
+              onClick={
+                () => {
+                  dispatch({
+                  type: 'UPDATE_ESSAY',
+                  payload: { essayId: essay.id }
+                })}
+              } 
+              className="title-link" 
+              to="/essay">
+                {essay.title}
+            </Link>
           </h3>
           <p className="time">{essay.timeToRead} minute read</p>
           <p className='content'>{essay.content}</p>

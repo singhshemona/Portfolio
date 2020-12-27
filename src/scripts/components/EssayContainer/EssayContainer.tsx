@@ -3,14 +3,14 @@ import './EssayContainer.scss';
 
 type Props = {
   title: String,
-  content: String
+  content: string
 }
 
 export const EssayContainer = ({ title, content }: Props) => {
   return (
     <div>
       <h2>{title}</h2>
-      {content}
+      <p dangerouslySetInnerHTML={{ __html: content }}></p>
     </div>
   );
 }
