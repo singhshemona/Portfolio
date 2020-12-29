@@ -3,14 +3,17 @@ import './EssayContainer.scss';
 
 type Props = {
   title: String,
-  content: string
+  content: String,
+  timeToRead: Number
 }
 
-export const EssayContainer = ({ title, content }: Props) => {
+export const EssayContainer = ({ title, content, timeToRead }: Props) => {
   return (
     <div>
       <h2>{title}</h2>
-      <p dangerouslySetInnerHTML={{ __html: content }}></p>
+      <h3>{timeToRead} minute read</h3>
+      {/* <p dangerouslySetInnerHTML={{ __html: content }}></p> */}
+      <p>{content}</p>
     </div>
   );
 }

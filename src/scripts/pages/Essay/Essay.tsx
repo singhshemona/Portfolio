@@ -1,16 +1,24 @@
-import React from 'react';
-import { useSelector } from 'react-redux'
-import { Header } from '../../components/Header/Header';
-import { OpeningText } from '../../components/OpeningText/OpeningText';
-import { EssayContainer } from '../../components/EssayContainer/EssayContainer';
-import { Link } from "react-router-dom";
-import { reducer } from '../App/App';
-import essays from './essays';
-import './Essay.scss';
+import React from 'react'
+import { Redirect } from "react-router-dom"
+import { Header } from '../../components/Header/Header'
+import { OpeningText } from '../../components/OpeningText/OpeningText'
+import { EssayContainer } from '../../components/EssayContainer/EssayContainer'
+import { Link } from "react-router-dom"
+import essays from '../../essays'
+import './Essay.scss'
 
-export const Essay = () => {
+type Props = {
+  match: any
+}
 
-  const essayId = useSelector((state:ReturnType<typeof reducer>) => state.essayId.essayId);
+export const Essay = ({ match }: Props) => {
+  const slug = match.params.slug;
+  const postSlugs = ["liquid-thinking", "my-second-blog-post"];
+
+  const postDoesNotExist = postSlugs.indexOf(slug) === -1;
+  if (postDoesNotExist) {
+    return <Redirect to="/" />;
+  }
 
   return (
     <div className="essay-page">
@@ -19,7 +27,11 @@ export const Essay = () => {
       <h4>
         <Link className="back-link" to="/">← BACK TO ALL ESSAYS</Link>
       </h4>
-      <EssayContainer title={essays[essayId].title} content={essays[essayId].content} />
+      <EssayContainer 
+        title={essays[2].title} 
+        content={essays[2].blurb} 
+        timeToRead={essays[2].timeToRead}
+      />
     </div>
   );
 }
