@@ -3,8 +3,8 @@ import './EssayContainer.scss';
 
 type Props = {
   title: String,
-  content: String,
-  timeToRead: Number
+  content: string,
+  timeToRead: number
 }
 
 export const EssayContainer = ({ title, content, timeToRead }: Props) => {
@@ -12,8 +12,7 @@ export const EssayContainer = ({ title, content, timeToRead }: Props) => {
     <div>
       <h2>{title}</h2>
       <h3>{timeToRead} minute read</h3>
-      {/* <p dangerouslySetInnerHTML={{ __html: content }}></p> */}
-      <p>{content}</p>
+      <p dangerouslySetInnerHTML={{ __html: content }}></p>
     </div>
   );
 }
