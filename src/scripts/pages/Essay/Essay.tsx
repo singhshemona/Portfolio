@@ -12,7 +12,7 @@ type Props = {
 
 export const Essay = ({ match }: Props) => {
   const slug = match.params.slug;
-  const [ currentPost, setCurrentPost ] = useState<null | {title: string, content: string, timeToRead: number}>(null)
+  const [ currentPost, setCurrentPost ] = useState<null | {title: string, content: string, timeToRead: number, lastEdited: string, written: string}>(null)
 
   useEffect(() => {
     db.ref()
@@ -45,6 +45,8 @@ export const Essay = ({ match }: Props) => {
             title={currentPost ? currentPost.title : 'No Title'} 
             content={currentPost ? currentPost.content : 'No Content'} 
             timeToRead={currentPost ? currentPost.timeToRead : 0}
+            lastEdited={currentPost ? currentPost.lastEdited : 'No Last Edited Date'}
+            written={currentPost ? currentPost.written : 'No Last Written Date'}
           />
         </>
       }
