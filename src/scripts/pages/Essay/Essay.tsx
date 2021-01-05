@@ -33,8 +33,8 @@ export const Essay = ({ match }: Props) => {
       <OpeningText />
       {postDoesNotExist ? 
         <h4>
-          Ruh-roh...it looks like this essay does not exist. 
-          <Link className="back-link" to="/">Head back to see which ones do.</Link>
+          Looks like this page does not exist...
+          <Link className="back-link" to="/">Head back to see which ones do!</Link>
         </h4>
         :
         <>
@@ -48,6 +48,9 @@ export const Essay = ({ match }: Props) => {
             lastEdited={currentPost ? currentPost.lastEdited : 'No Last Edited Date'}
             written={currentPost ? currentPost.written : 'No Last Written Date'}
           />
+          <h4>
+            <Link className="back-link" to="/">← BACK TO ALL ESSAYS</Link>
+          </h4>
         </>
       }
     </div>
