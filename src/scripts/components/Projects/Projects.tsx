@@ -2,6 +2,12 @@ import React from 'react';
 import projects from './allProjects';
 import './Projects.scss';
 import { ExternalLink } from '../ExternalLink/ExternalLink';
+import podcast from '../../../images/podcast.svg';
+import animations from '../../../images/animations.svg';
+import homegrade from '../../../images/homegrade.svg';
+import makerpaper from '../../../images/makerpaper.svg';
+import reconnecting from '../../../images/reconnecting.svg';
+
 
 export const Projects = () => {
   return (
@@ -9,7 +15,13 @@ export const Projects = () => {
     {projects.map((project, i) => (
       <div key={i} className='project'>
         <div className="heading">
-          <img alt="placeholder" src="https://via.placeholder.com/100" />
+          <img alt="placeholder" src={
+            project.image === 'reconnecting' ? reconnecting : 
+            project.image === 'podcast' ? podcast :
+            project.image === 'animations' ? animations :
+            project.image === 'homegrade' ? homegrade :
+            project.image === 'makerpaper' ? makerpaper : ''
+          } />
           <div>
             <h3>
               <ExternalLink
