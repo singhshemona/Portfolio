@@ -4,6 +4,7 @@ export default [
     tags: ['React Native', 'Expo', 'SQLlite', 'CSS in JS'],
     timeline: 'Nov 2020 - Present',
     image: 'podcast',
+    link: 'https://github.com/singhshemona/podcast',
     pitch: 'A platform to consume Podcasts in a more engaging manner.',
   },
   {
@@ -11,6 +12,7 @@ export default [
     tags: ['React Native'],
     timeline: 'Aug 2020 - Present',
     image: 'reconnecting',
+    link: '#',
     pitch: 'How might we meet the needs for connection while not drying up the well of our mental health?',
   },
   {
@@ -18,6 +20,7 @@ export default [
     tags: ['React', 'SCSS'],
     timeline: 'Feb 2020 - Nov 2020',
     image: 'animations',
+    link: 'https://github.com/singhshemona/animate',
     pitch: 'Easy to adapt, (accessible and performant) animation templates.',
   },
   {
@@ -25,6 +28,7 @@ export default [
     tags: ['React / Emotion', 'Housing'],
     timeline: 'Feb 2020 - Aug 2020',
     image: 'homegrade',
+    link: 'https://github.com/homegrade/HomeGrade',
     pitch: 'In an effort to learn Redux, I ventured to design a cirriculum around it as well.',
   },
   {
@@ -32,6 +36,7 @@ export default [
     tags: ['HTML / SCSS', 'Artistic Marketplace'],
     timeline: 'Feb 2020 - Aug 2020',
     image: 'makerpaper',
+    link: 'https://github.com/makerpaper/makerpaper.github.io',
     pitch: 'In an effort to learn Redux, I ventured to design a cirriculum around it as well.',
   },
 ];

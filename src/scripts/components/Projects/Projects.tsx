@@ -25,7 +25,7 @@ export const Projects = () => {
           <div>
             <h3>
               <ExternalLink
-                link={'test'}
+                link={project.link}
                 content={project.title + ' ↗'}
               />
             </h3>
