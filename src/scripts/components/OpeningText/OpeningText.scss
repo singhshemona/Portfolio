@@ -1,6 +1,8 @@
 @import 'styles/_variables.scss';
 
 .opening-text {
+  max-width: 600px;
+  
   @media (min-width: 768px) {
     margin-bottom: 70px;
   }
@@ -14,9 +16,6 @@
     color: $secondary;
     font-family: 'Playfair Display', serif;
     margin: 5px 0 20px 0;
-
-    @media (min-width: 500px) {
-    }
   }
 
   .bio {

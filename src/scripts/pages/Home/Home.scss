@@ -22,7 +22,7 @@
   .skeleton {
     h2 {
       font-size: 30px;
-      font-weight: 400px;
+      font-weight: 400;
       color: $secondary;
       font-family: 'Playfair Display', serif;
       margin-top: 0;
@@ -55,11 +55,14 @@
       }
       
       .time,
-      .content,
       .tags,
-      .pitch,
       .timeline {
         color: $primary;
+      }
+
+      .content,
+      .pitch {
+        color: $text;
       }
     
       .time, 
