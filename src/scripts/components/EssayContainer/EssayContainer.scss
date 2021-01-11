@@ -1,5 +1,20 @@
+@import 'styles/_variables.scss';
+
 .essay-container {
+  .thesis {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .quote {
+    border-left: 3px solid;
+    margin-left: 30px;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
   .content {
     line-height: 25px;
+    color: $text;
   }
 }
