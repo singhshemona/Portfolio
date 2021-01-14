@@ -1,20 +1,38 @@
 @import 'styles/_variables.scss';
 
 .essay-container {
+  max-width: 700px;
+  margin: 0 auto;
+
+  .details {
+    color: $primary;
+    line-height: 6px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid $linkUnderline;
+  }
+
+  .title,
+  .content {
+    color: $text;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .content {
+    line-height: 26px;
+  }
+
   .thesis {
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+    color: $secondary;
   }
 
   .quote {
     border-left: 3px solid;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-left: 20px;
     font-style: italic;
-  }
-
-  .content {
-    line-height: 25px;
-    color: $text;
   }
 }

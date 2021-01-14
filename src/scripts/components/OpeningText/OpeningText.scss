@@ -1,8 +1,6 @@
 @import 'styles/_variables.scss';
 
-.opening-text {
-  max-width: 600px;
-  
+.opening-text {  
   @media (min-width: 768px) {
     margin-bottom: 70px;
   }

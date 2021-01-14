@@ -30,7 +30,7 @@ export const Essay = ({ match }: Props) => {
   return (
     <div className="essay-page">
       <Header/>
-      <OpeningText />
+      {/* <OpeningText /> */}
       {postDoesNotExist ? 
         <h4>
           Looks like this page does not exist...

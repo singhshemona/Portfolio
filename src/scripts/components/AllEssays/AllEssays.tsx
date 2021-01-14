@@ -27,9 +27,6 @@ export const AllEssays = () => {
           </h3>
           <p className="time">{essay.timeToRead} minute read</p>
           <p className='content'>{essay.blurb}</p>
-          <h4>
-            <Link className="read-more-link" to={`/${essay.slug}`}>Read More →</Link>
-          </h4>
         </div>
       ))}
     </div>

@@ -8,7 +8,7 @@ export default [
     pitch: 'A platform to consume Podcasts in a more engaging manner.',
   },
   {
-    title: 'Anti-recommendation Engine',
+    title: 'Broadening Recommendations',
     tags: ['React', 'Python', 'TensorFlow', 'Firebase'],
     timeline: 'January 2021 - Present',
     image: 'reconnecting',

@@ -26,7 +26,7 @@ export const Projects = () => {
             <h3>
               <ExternalLink
                 link={project.link}
-                content={project.title + ' ↗'}
+                content={project.title}
               />
             </h3>
             <p className="tags">{project.tags.join(', ')}</p>
