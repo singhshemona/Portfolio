@@ -12,7 +12,7 @@ type Props = {
 export const EssayContainer = ({ title, content, timeToRead, lastEdited, written }: Props) => {
   return (
     <div className="essay-container">
-      <h2 className="title">{title}</h2>
+      <h1 className="title">{title}</h1>
       <div className="details">
         <p className="time">{timeToRead} minute read</p>
         <p className="last-edit">Last edited: {lastEdited}</p>

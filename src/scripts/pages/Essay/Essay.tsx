@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../../components/Header/Header'
-import { OpeningText } from '../../components/OpeningText/OpeningText'
 import { EssayContainer } from '../../components/EssayContainer/EssayContainer'
 import { Link } from "react-router-dom"
 import db from '../../../firebase'
@@ -30,7 +29,6 @@ export const Essay = ({ match }: Props) => {
   return (
     <div className="essay-page">
       <Header/>
-      {/* <OpeningText /> */}
       {postDoesNotExist ? 
         <h4>
           Looks like this page does not exist...

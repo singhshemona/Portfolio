@@ -12,7 +12,7 @@ export default [
     tags: ['React', 'Python', 'TensorFlow', 'Firebase'],
     timeline: 'January 2021 - Present',
     image: 'reconnecting',
-    link: '#',
+    link: 'https://github.com/singhshemona/recommend',
     pitch: 'How might we eliminate the bumpers of confirmation bias that our current recommendation engines enforce?',
   },
   {

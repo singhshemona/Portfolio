@@ -4,6 +4,11 @@
   max-width: 700px;
   margin: 0 auto;
 
+  .title,
+  .thesis {
+    color: $secondary;
+  }
+
   .details {
     color: $primary;
     line-height: 6px;
@@ -11,13 +16,13 @@
     border-bottom: 1px solid $linkUnderline;
   }
 
-  .title,
   .content {
     color: $text;
   }
 
   .title {
-    font-size: 34px;
+    font-family: $styledFontFamily;
+    font-size: 40px;
   }
 
   .content {
@@ -26,7 +31,7 @@
 
   .thesis {
     font-size: 20px;
-    color: $secondary;
+    font-weight: bold;
   }
 
   .quote {
