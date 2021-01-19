@@ -10,7 +10,11 @@
   }
 
   .project {
-    margin-right: 50px;
+    margin-right: 80px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 60px;
+    }
   }
 
   .heading {

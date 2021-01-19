@@ -6,7 +6,7 @@ import podcast from '../../../images/podcast.svg';
 import animations from '../../../images/animations.svg';
 import homegrade from '../../../images/homegrade.svg';
 import makerpaper from '../../../images/makerpaper.svg';
-import reconnecting from '../../../images/reconnecting.svg';
+import recommend from '../../../images/recommend.svg';
 
 
 export const Projects = () => {
@@ -16,7 +16,7 @@ export const Projects = () => {
       <div key={i} className='project'>
         <div className="heading">
           <img alt="placeholder" src={
-            project.image === 'reconnecting' ? reconnecting : 
+            project.image === 'recommend' ? recommend : 
             project.image === 'podcast' ? podcast :
             project.image === 'animations' ? animations :
             project.image === 'homegrade' ? homegrade :

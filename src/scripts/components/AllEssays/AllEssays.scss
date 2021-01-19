@@ -3,6 +3,11 @@
 .essays {
   margin-bottom: 50px;
 
+  .loading {
+    color: $primary;
+    font-size: 20px;
+  }
+
   .title-link {
     @include links;
   }
@@ -14,5 +19,13 @@
 
   .content {
     line-height: 22px;
+  }
+
+  .essay {
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 50px;
+    }
   }
 }

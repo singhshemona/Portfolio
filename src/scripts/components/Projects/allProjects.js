@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Podcasts',
-    tags: ['React Native', 'Expo', 'SQLlite', 'CSS in JS'],
+    tags: ['React Native', 'Firebase', 'CSS in JS'],
     timeline: 'November 2020 - Present',
     image: 'podcast',
     link: 'https://github.com/singhshemona/podcast',
@@ -9,9 +9,9 @@ export default [
   },
   {
     title: 'Broadening Recommendations',
-    tags: ['React', 'Python', 'TensorFlow', 'Firebase'],
+    tags: ['React', 'Python'],
     timeline: 'January 2021 - Present',
-    image: 'reconnecting',
+    image: 'recommend',
     link: 'https://github.com/singhshemona/recommend',
     pitch: 'How might we eliminate the bumpers of confirmation bias that our current recommendation engines enforce?',
   },
@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'HomeGrade',
-    tags: ['React', 'Emotion', 'Housing'],
+    tags: ['React', 'Emotion'],
     timeline: 'April 2019 - April 2020',
     image: 'homegrade',
     link: 'https://github.com/homegrade/HomeGrade',
@@ -33,7 +33,7 @@ export default [
   },
   {
     title: 'Makerpaper',
-    tags: ['HTML', 'SCSS', 'Artistic Marketplace'],
+    tags: ['HTML', 'SCSS'],
     timeline: 'November 2018 - December 2019',
     image: 'makerpaper',
     link: 'https://github.com/makerpaper/makerpaper.github.io',

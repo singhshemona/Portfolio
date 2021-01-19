@@ -18,7 +18,10 @@ export const AllEssays = () => {
 
   return (
     <div className='essays'>
-      {Object.values(essays).map((essay:any, id:number) => (
+      {Object.keys(essays).length === 0 ?
+      <p className="loading">Loading essays...</p>
+      :
+      Object.values(essays).map((essay:any, id:number) => (
         <div key={id} className='essay'>
           <h3>
             <Link className="title-link" to={`/${essay.slug}`}>
