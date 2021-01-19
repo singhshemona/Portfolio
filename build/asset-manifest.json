@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/singhshemona.github.io/static/css/main.88c56dda.chunk.css",
-    "main.js": "/singhshemona.github.io/static/js/main.cb5c157c.chunk.js",
-    "main.js.map": "/singhshemona.github.io/static/js/main.cb5c157c.chunk.js.map",
+    "main.css": "/singhshemona.github.io/static/css/main.9940fe55.chunk.css",
+    "main.js": "/singhshemona.github.io/static/js/main.13dc297b.chunk.js",
+    "main.js.map": "/singhshemona.github.io/static/js/main.13dc297b.chunk.js.map",
     "runtime-main.js": "/singhshemona.github.io/static/js/runtime-main.39fe9748.js",
     "runtime-main.js.map": "/singhshemona.github.io/static/js/runtime-main.39fe9748.js.map",
-    "static/js/2.497967dc.chunk.js": "/singhshemona.github.io/static/js/2.497967dc.chunk.js",
-    "static/js/2.497967dc.chunk.js.map": "/singhshemona.github.io/static/js/2.497967dc.chunk.js.map",
+    "static/js/2.2bac7d59.chunk.js": "/singhshemona.github.io/static/js/2.2bac7d59.chunk.js",
+    "static/js/2.2bac7d59.chunk.js.map": "/singhshemona.github.io/static/js/2.2bac7d59.chunk.js.map",
     "index.html": "/singhshemona.github.io/index.html",
-    "precache-manifest.fd051605254d41ac806be6ac505c3833.js": "/singhshemona.github.io/precache-manifest.fd051605254d41ac806be6ac505c3833.js",
+    "precache-manifest.0fdb72e3020dfe0d053390180af84805.js": "/singhshemona.github.io/precache-manifest.0fdb72e3020dfe0d053390180af84805.js",
     "service-worker.js": "/singhshemona.github.io/service-worker.js",
-    "static/css/main.88c56dda.chunk.css.map": "/singhshemona.github.io/static/css/main.88c56dda.chunk.css.map",
-    "static/js/2.497967dc.chunk.js.LICENSE.txt": "/singhshemona.github.io/static/js/2.497967dc.chunk.js.LICENSE.txt",
+    "static/css/main.9940fe55.chunk.css.map": "/singhshemona.github.io/static/css/main.9940fe55.chunk.css.map",
+    "static/js/2.2bac7d59.chunk.js.LICENSE.txt": "/singhshemona.github.io/static/js/2.2bac7d59.chunk.js.LICENSE.txt",
+    "static/media/animations.svg": "/singhshemona.github.io/static/media/animations.029f921a.svg",
     "static/media/behance.svg": "/singhshemona.github.io/static/media/behance.05dc0473.svg",
+    "static/media/devto.svg": "/singhshemona.github.io/static/media/devto.cae872c8.svg",
     "static/media/github.svg": "/singhshemona.github.io/static/media/github.07883e93.svg",
-    "static/media/linkedin.svg": "/singhshemona.github.io/static/media/linkedin.84a607a7.svg"
+    "static/media/homegrade.svg": "/singhshemona.github.io/static/media/homegrade.2eb2b456.svg",
+    "static/media/linkedin.svg": "/singhshemona.github.io/static/media/linkedin.84a607a7.svg",
+    "static/media/makerpaper.svg": "/singhshemona.github.io/static/media/makerpaper.ff6d53b3.svg",
+    "static/media/podcast.svg": "/singhshemona.github.io/static/media/podcast.ae68fa97.svg",
+    "static/media/recommend.svg": "/singhshemona.github.io/static/media/recommend.0ffe3f54.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.39fe9748.js",
-    "static/js/2.497967dc.chunk.js",
-    "static/css/main.88c56dda.chunk.css",
-    "static/js/main.cb5c157c.chunk.js"
+    "static/js/2.2bac7d59.chunk.js",
+    "static/css/main.9940fe55.chunk.css",
+    "static/js/main.13dc297b.chunk.js"
   ]
 }
