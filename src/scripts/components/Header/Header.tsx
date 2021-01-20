@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <header className="navigation">
       <ExternalLink
-        link="https://www.behance.net/singhshemona/projects"
+        link="https://dev.to/singhshemona"
         content={<img src={DevToLogo} alt="DevTo Logo" />}
       />
       <ExternalLink

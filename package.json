@@ -1,6 +1,5 @@
 {
-  "homepage": "http://singhshemona.github.io/singhshemona.github.io",
-  "name": "singhshemona.github.io",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/react-router-dom": "^5.1.5",
     "convertkit-react": "^1.4.2",
-    "firebase": "^8.2.1",
+    "firebase": "^8.2.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
