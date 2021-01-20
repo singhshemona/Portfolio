@@ -20,9 +20,13 @@
     color: $text;
 
     .images {
-      max-width: 500px;
-      display: block;
-      margin: 0 auto;
+      max-width: 100%;
+
+      @media (min-width: 768px) {
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+      }    
     }
   }
 
