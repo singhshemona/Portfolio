@@ -1,13 +1,5 @@
 export default [
   {
-    title: 'Podcasts',
-    tags: ['React Native', 'Firebase', 'CSS in JS'],
-    timeline: 'November 2020 - Present',
-    image: 'podcast',
-    link: 'https://github.com/singhshemona/podcast',
-    pitch: 'A platform to consume Podcasts in a more engaging manner.',
-  },
-  {
     title: 'Broadening Recommendations',
     tags: ['React', 'Python'],
     timeline: 'January 2021 - Present',
