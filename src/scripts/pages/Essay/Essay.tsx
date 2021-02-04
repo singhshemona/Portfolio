@@ -30,10 +30,12 @@ export const Essay = ({ match }: Props) => {
     <div className="essay-page">
       <Header/>
       {postDoesNotExist ? 
-        <h4>
-          Looks like this page does not exist...
+        <div>
+          <h4>
+            Loading...or this essay might not exist.
+          </h4>
           <Link className="back-link" to="/">Head back to see which ones do!</Link>
-        </h4>
+        </div>
         :
         <>
           <h4>

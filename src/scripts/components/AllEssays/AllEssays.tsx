@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './AllEssays.scss'
 import { Link } from "react-router-dom"
-import essays from '../../essays.json'
+import essays from '../../essays.js'
 // import db from '../../../firebase'
 
 export const AllEssays = () => {
@@ -19,8 +19,7 @@ export const AllEssays = () => {
 
   return (
     <div className='essays'>
-      {console.log(essays)}
-      {/* {Object.values(essays).map((essay:any, id:number) => (
+      {essays.map((essay:any, id:number) => (
         <div key={id} className='essay'>
           <h3>
             <Link className="title-link" to={`/${essay.slug}`}>
@@ -30,7 +29,7 @@ export const AllEssays = () => {
           <p className="time">{essay.timeToRead} minute read</p>
           <p className='content'>{essay.blurb}</p>
         </div>
-      ))} */}
+      ))}
     </div>
   );
 }
