@@ -6,17 +6,17 @@ type Props = {
   content: string,
   timeToRead: number,
   lastEdited: string,
-  written: string,
+  published: string,
 }
 
-export const EssayContainer = ({ title, content, timeToRead, lastEdited, written }: Props) => {
+export const EssayContainer = ({ title, content, timeToRead, lastEdited, published }: Props) => {
   return (
     <div className="essay-container">
       <h1 className="title">{title}</h1>
       <div className="details">
-        <p className="time">{timeToRead} minute read</p>
-        <p className="last-edit">Last edited: {lastEdited}</p>
-        <p className="written">Written: {written}</p>
+        <p>{timeToRead} minute read</p>
+        <p>Last edited: {lastEdited}</p>
+        <p>Published: {published}</p>
       </div>
       <div className="content" dangerouslySetInnerHTML={{ __html: content }}></div>
     </div>

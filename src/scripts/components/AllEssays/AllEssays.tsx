@@ -1,27 +1,26 @@
 import React, { useState, useEffect } from 'react'
 import './AllEssays.scss'
 import { Link } from "react-router-dom"
-import db from '../../../firebase'
+import essays from '../../essays.json'
+// import db from '../../../firebase'
 
 export const AllEssays = () => {
 
-  const [essays, setEssays] = useState({});
+  // const [essays, setEssays] = useState({});
   
-  useEffect(() => {
-    db.ref('/').on('value', (querySnapShot:any) => {
-      let data = querySnapShot.val() ? querySnapShot.val() : {};
-      let allEssays = {...data};
-      setEssays(allEssays)
-    });
-  }, [])
+  // useEffect(() => {
+  //   db.ref('/').on('value', (querySnapShot:any) => {
+  //     let data = querySnapShot.val() ? querySnapShot.val() : {};
+  //     let allEssays = {...data};
+  //     setEssays(allEssays)
+  //   });
+  // }, [])
   
 
   return (
     <div className='essays'>
-      {Object.keys(essays).length === 0 ?
-      <p className="loading">Loading essays...</p>
-      :
-      Object.values(essays).map((essay:any, id:number) => (
+      {console.log(essays)}
+      {/* {Object.values(essays).map((essay:any, id:number) => (
         <div key={id} className='essay'>
           <h3>
             <Link className="title-link" to={`/${essay.slug}`}>
@@ -31,7 +30,7 @@ export const AllEssays = () => {
           <p className="time">{essay.timeToRead} minute read</p>
           <p className='content'>{essay.blurb}</p>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }
