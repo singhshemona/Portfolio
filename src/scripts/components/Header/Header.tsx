@@ -34,7 +34,7 @@ export const Header = () => {
       <Button
         content="Let's Collaborate"
         onClick={() =>
-          window.location.href='https://www.linkedin.com/in/shemonasingh/detail/contact-info/'
+          window.location.href='https://www.linkedin.com/in/shemonasingh/'
         }
       />
     </header>
