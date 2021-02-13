@@ -5,7 +5,15 @@ export default [
     timeline: 'Jan 2021 - Present',
     image: 'recommend',
     link: 'https://github.com/singhshemona/recommend',
-    pitch: 'Eliminating the bumpers of confirmation bias in current recommendation engines',
+    pitch: 'Eliminating the bumpers of confirmation bias in current recommendation engines.',
+  },
+  {
+    title: 'Build My Capsule',
+    tags: ['React', 'JavaScript'],
+    timeline: 'Feb 2021 - Mar 2021',
+    image: 'capsule',
+    link: 'https://github.com/singhshemona/capsule',
+    pitch: 'Enables traveling light and expressing style to be mutually inclusive.',
   },
   {
     title: 'Animations Library',
