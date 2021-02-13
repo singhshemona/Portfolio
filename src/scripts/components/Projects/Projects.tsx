@@ -7,7 +7,7 @@ import animations from '../../../images/animations.svg';
 import homegrade from '../../../images/homegrade.svg';
 import makerpaper from '../../../images/makerpaper.svg';
 import recommend from '../../../images/recommend.svg';
-
+import capsule from '../../../images/capsule.svg';
 
 export const Projects = () => {
   return (
@@ -17,6 +17,7 @@ export const Projects = () => {
         <div className="heading">
           <img alt="placeholder" src={
             project.image === 'recommend' ? recommend : 
+            project.image === 'capsule' ? capsule :
             project.image === 'podcast' ? podcast :
             project.image === 'animations' ? animations :
             project.image === 'homegrade' ? homegrade :
