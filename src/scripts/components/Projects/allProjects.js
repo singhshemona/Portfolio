@@ -8,9 +8,9 @@ export default [
     pitch: 'Eliminating the bumpers of confirmation bias in current recommendation engines.',
   },
   {
-    title: 'Build My Capsule',
-    tags: ['React', 'JavaScript'],
-    timeline: 'Feb 2021 - Mar 2021',
+    title: 'Traveling Capsule',
+    tags: ['React Native'],
+    timeline: 'Feb 2021 - Present',
     image: 'capsule',
     link: 'https://github.com/singhshemona/capsule',
     pitch: 'Enables traveling light and expressing style to be mutually inclusive.',

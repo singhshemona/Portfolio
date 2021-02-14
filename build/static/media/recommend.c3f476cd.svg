@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
   <defs>
-    <ellipse id="ellipse-1" cx="42.829" cy="42.875" rx="42.829" ry="42.875"/>
+    <ellipse id="ellipse-1" cx="48.829" cy="44.875" rx="42.829" ry="42.875"/>
     <mask id="mask-2" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
       <rect width="100" height="100" x="0" y="0" fill="black"/>
       <use fill="white" xlink:href="#ellipse-1"/>
     </mask>
-    <ellipse id="ellipse-3" cx="64.5" cy="72.5" rx="24.5" ry="24.5"/>
+    <ellipse id="ellipse-3" cx="70.5" cy="74.5" rx="24.5" ry="24.5"/>
     <mask id="mask-4" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
       <rect width="100" height="100" x="0" y="0" fill="black"/>
       <use fill="white" xlink:href="#ellipse-3"/>
     </mask>
-    <ellipse id="ellipse-5" cx="65" cy="72.275" rx="18" ry="18.275"/>
+    <ellipse id="ellipse-5" cx="71" cy="74.275" rx="18" ry="18.275"/>
     <mask id="mask-6" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
       <rect width="100" height="100" x="0" y="0" fill="black"/>
       <use fill="white" xlink:href="#ellipse-5"/>

@@ -2,12 +2,12 @@ import React from 'react';
 import projects from './allProjects';
 import './Projects.scss';
 import { ExternalLink } from '../ExternalLink/ExternalLink';
-import podcast from '../../../images/podcast.svg';
-import animations from '../../../images/animations.svg';
-import homegrade from '../../../images/homegrade.svg';
-import makerpaper from '../../../images/makerpaper.svg';
-import recommend from '../../../images/recommend.svg';
-import capsule from '../../../images/capsule.svg';
+import podcast from 'images/podcast.svg';
+import animations from 'images/animations.svg';
+import homegrade from 'images/homegrade.svg';
+import makerpaper from 'images/makerpaper.svg';
+import recommend from 'images/recommend.svg';
+import capsule from 'images/capsule.svg';
 
 export const Projects = () => {
   return (
