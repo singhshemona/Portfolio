@@ -15,7 +15,7 @@ export const Essay = ({ match }: Props) => {
 
   useEffect(() => {
     db.ref()
-      .child(`/${slug}`)
+      .child(`/posts/${slug}`)
       .once('value')
       .then(snapshot => {
         if (snapshot.val()) {
