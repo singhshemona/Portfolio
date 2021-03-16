@@ -1,5 +1,17 @@
 export default [
   {
+    slug: 'applying-zettelkasten-to-notion',
+    title: 'Applying Zettelkasten to Notion',
+    timeToRead: 12,
+    blurb: 'Towards the middle of 2020 I stumbled upon the term \'second brain.\' Instantly, I was intrigued. Much like most of the worlds I stumble into, in some ways I had been opening its doors long before I learnt its principles.',
+  },
+  {
+    slug: 'how-to-take-non-academic-notes',
+    title: 'How to Take Non-Academic Notes',
+    timeToRead: 10,
+    blurb: 'Reading the word \'notes\' likely elicits a cringe response. We\'ve all grown up taking notes. Whether it\'s because we were genuinely interested in the class or because that\'s what we saw the smart students do, who knows. I do know that taking notes is something we\'re never taught. And like most activities associated with school (reading, writing, learning) we enthusiastically wipe our hands of them upon graduation.',
+  },
+  {
     slug: 'our-most-powerful-weapon',
     title: 'Our Most Powerful Weapon',
     timeToRead: 11,
