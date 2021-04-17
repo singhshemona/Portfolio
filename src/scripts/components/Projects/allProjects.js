@@ -24,6 +24,14 @@ export default [
     pitch: 'Easily adaptable, accessible and performant animation templates.',
   },
   {
+    title: 'Redux Course',
+    tags: ['React', 'Redux'],
+    timeline: 'May 2020 - Aug 2020',
+    image: 'course',
+    link: 'https://scrimba.com/playlist/pNpEbsP',
+    pitch: 'A breakdown of simple uses for Redux with React to build upon.',
+  },
+  {
     title: 'HomeGrade',
     tags: ['React', 'Emotion'],
     timeline: 'Apr 2019 - Apr 2020',

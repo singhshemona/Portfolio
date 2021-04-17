@@ -12,8 +12,8 @@ export default [
     blurb: 'Reading the word \'notes\' likely elicits a cringe response. We\'ve all grown up taking notes. Whether it\'s because we were genuinely interested in the class or because that\'s what we saw the smart students do, who knows. I do know that taking notes is something we\'re never taught. And like most activities associated with school (reading, writing, learning) we enthusiastically wipe our hands of them upon graduation.',
   },
   {
-    slug: 'our-most-powerful-weapon',
-    title: 'Our Most Powerful Weapon',
+    slug: 'our-strongest-armor',
+    title: 'Our Strongest Armor',
     timeToRead: 11,
     blurb: 'We\'ve reached a point in technological development where our devices understand how to satiate our desires more than any human ever will. We\'re drowning in information that gets filtered through our unique perspectives. Regardless of how refined that perspective might be, it\'s overwhelming. What\'s right, what\'s wrong and what\'s best for you is preached by millions of strangers on various platforms.',
   },

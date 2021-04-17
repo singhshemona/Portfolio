@@ -3,6 +3,12 @@
 .essays {
   margin-bottom: 50px;
 
+  @media (min-width: 768px) {
+    overflow: scroll;
+    height: 100vh;
+    box-shadow: inset 0px -17px 12px -17px $primary;
+  }
+
   .loading {
     color: $primary;
     font-size: 20px;

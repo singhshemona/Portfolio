@@ -8,6 +8,7 @@ import homegrade from 'images/homegrade.svg';
 import makerpaper from 'images/makerpaper.svg';
 import recommend from 'images/recommend.svg';
 import capsule from 'images/capsule.svg';
+import course from 'images/course.svg';
 
 export const Projects = () => {
   return (
@@ -20,6 +21,7 @@ export const Projects = () => {
             project.image === 'capsule' ? capsule :
             project.image === 'podcast' ? podcast :
             project.image === 'animations' ? animations :
+            project.image === 'course' ? course :
             project.image === 'homegrade' ? homegrade :
             project.image === 'makerpaper' ? makerpaper : ''
           } />
