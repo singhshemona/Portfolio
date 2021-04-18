@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed847ccc.chunk.css",
-    "main.js": "/static/js/main.04303e69.chunk.js",
-    "main.js.map": "/static/js/main.04303e69.chunk.js.map",
+    "main.css": "/static/css/main.0b2d184b.chunk.css",
+    "main.js": "/static/js/main.c02dc8cd.chunk.js",
+    "main.js.map": "/static/js/main.c02dc8cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
-    "static/js/2.d26f0474.chunk.js": "/static/js/2.d26f0474.chunk.js",
-    "static/js/2.d26f0474.chunk.js.map": "/static/js/2.d26f0474.chunk.js.map",
+    "static/js/2.a02519ce.chunk.js": "/static/js/2.a02519ce.chunk.js",
+    "static/js/2.a02519ce.chunk.js.map": "/static/js/2.a02519ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4c112e7ac24cd3da103ada08b853d576.js": "/precache-manifest.4c112e7ac24cd3da103ada08b853d576.js",
+    "precache-manifest.e9060c9fe327adb1e13cf588dd071f95.js": "/precache-manifest.e9060c9fe327adb1e13cf588dd071f95.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ed847ccc.chunk.css.map": "/static/css/main.ed847ccc.chunk.css.map",
-    "static/js/2.d26f0474.chunk.js.LICENSE.txt": "/static/js/2.d26f0474.chunk.js.LICENSE.txt",
+    "static/css/main.0b2d184b.chunk.css.map": "/static/css/main.0b2d184b.chunk.css.map",
+    "static/js/2.a02519ce.chunk.js.LICENSE.txt": "/static/js/2.a02519ce.chunk.js.LICENSE.txt",
     "static/media/anchor.svg": "/static/media/anchor.c47af433.svg",
     "static/media/animations.svg": "/static/media/animations.029f921a.svg",
     "static/media/behance.svg": "/static/media/behance.05dc0473.svg",
     "static/media/capsule.svg": "/static/media/capsule.4459e374.svg",
+    "static/media/course.svg": "/static/media/course.1069e884.svg",
     "static/media/devto.svg": "/static/media/devto.cae872c8.svg",
     "static/media/github.svg": "/static/media/github.07883e93.svg",
     "static/media/homegrade.svg": "/static/media/homegrade.2eb2b456.svg",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7e4b9196.js",
-    "static/js/2.d26f0474.chunk.js",
-    "static/css/main.ed847ccc.chunk.css",
-    "static/js/main.04303e69.chunk.js"
+    "static/js/2.a02519ce.chunk.js",
+    "static/css/main.0b2d184b.chunk.css",
+    "static/js/main.c02dc8cd.chunk.js"
   ]
 }

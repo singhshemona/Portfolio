@@ -12,7 +12,7 @@ export default [
     tags: ['React Native'],
     timeline: 'Feb 2021 - Present',
     image: 'capsule',
-    link: 'https://github.com/singhshemona/capsule',
+    link: 'https://play.google.com/store/apps/details?id=com.shemona.capsule',
     pitch: 'Enables traveling light and expressing style to be mutually inclusive.',
   },
   {
