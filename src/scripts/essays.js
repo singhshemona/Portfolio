@@ -1,5 +1,11 @@
 export default [
   {
+    slug: 'why-i-write',
+    title: 'Why I Write',
+    timeToRead: 7,
+    blurb: 'Writing has been a craft close to my heart for as long as I could speak. The interest sparked with creative writing, where my amazement with bringing to life magical universes spiraling within my mind never ceased.',
+  },
+  {
     slug: 'applying-zettelkasten-to-notion',
     title: 'Applying Zettelkasten to Notion',
     timeToRead: 12,
