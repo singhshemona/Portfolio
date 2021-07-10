@@ -9,7 +9,7 @@ export default [
     slug: 'applying-zettelkasten-to-notion',
     title: 'Applying Zettelkasten to Notion',
     timeToRead: 12,
-    blurb: 'Towards the middle of 2020 I stumbled upon the term \'second brain.\' Instantly, I was intrigued. Much like most of the worlds I stumble into, in some ways I had been opening its doors long before I learnt its principles.',
+    blurb: 'Towards the middle of 2020 I stumbled upon the term \'second brain.\' I was instantly intrigued. Much like most of the worlds I stumble into, in some ways I had been opening its doors long before I learnt its principles.',
   },
   {
     slug: 'how-to-take-non-academic-notes',
