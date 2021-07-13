@@ -15,7 +15,7 @@ export default [
     slug: 'how-to-take-non-academic-notes',
     title: 'How to Take Non-Academic Notes',
     timeToRead: 10,
-    blurb: 'Reading the word \'notes\' likely elicits a cringe response. We\'ve all grown up taking notes. Whether it\'s because we were genuinely interested in the class or because that\'s what we saw the smart students do, who knows. I do know that taking notes is something we\'re never taught. And like most activities associated with school (reading, writing, learning) we enthusiastically wipe our hands of them upon graduation.',
+    blurb: 'Reading the word \'notes\' likely elicits a cringe response. We\'ve all grown up taking notes. Whether it\'s because we were genuinely interested in the class or because that\'s what we saw the smart students do, who knows. I do know that taking notes is something we are never taught. And like most activities associated with school (reading, writing, learning) we enthusiastically wipe our hands of them upon graduation.',
   },
   {
     slug: 'our-strongest-armor',
